@@ -1,0 +1,36 @@
+name: Deploy Explorer Page
+
+on:
+  push:
+    paths:
+      - 'repository/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.0
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+      - name: Sync Branch
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          git config --global user.email "cn-traveler@qq.com"
+          git config --global user.name "CN-traveler"
+          git checkout -q -b page --no-track HEAD
+      - name: Execute Script
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          php .github/scripts/main.php > source/repository.json
+          git add .
+          git commit -m deploy
+          git push -u origin page -f

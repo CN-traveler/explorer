@@ -1,0 +1,4210 @@
+/* 默认无图标 */
+.item::before {
+    background: none;
+}
+
+/* 默认文件图标 */
+.item.file::before {
+    background: url(default_file.svg);
+}
+
+/* 根据文件后缀匹配文件类型后匹配图标 */
+.item.file[title$='.as']::before {
+    background: url(file_type_actionscript.svg);
+}
+
+.item.file[title$='.ada']::before {
+    background: url(file_type_ada.svg);
+}
+
+.item.file[title$='.prw']::before {
+    background: url(file_type_advpl.svg);
+}
+
+.item.file[title$='.affect']::before {
+    background: url(file_type_affectscript.svg);
+}
+
+.item.file[title$='.al']::before {
+    background: url(file_type_al.svg);
+}
+
+.item.file[title$='.ansible']::before {
+    background: url(file_type_ansible.svg);
+}
+
+.item.file[title$='.g4']::before {
+    background: url(file_type_antlr.svg);
+}
+
+.item.file[title$='.any']::before {
+    background: url(file_type_anyscript.svg);
+}
+
+.item.file[title$='.htaccess']::before {
+    background: url(file_type_apache.svg);
+}
+
+.item.file[title$='.cls']::before {
+    background: url(file_type_apex.svg);
+}
+
+.item.file[title$='.apib']::before {
+    background: url(file_type_apib.svg);
+}
+
+.item.file[title$='.apl']::before {
+    background: url(file_type_apl.svg);
+}
+
+.item.file[title$='.applescript']::before {
+    background: url(file_type_applescript.svg);
+}
+
+.item.file[title$='.adoc']::before {
+    background: url(file_type_asciidoc.svg);
+}
+
+.item.file[title$='.asp']::before {
+    background: url(file_type_asp.svg);
+}
+
+.item.file[title$='.asm']::before {
+    background: url(file_type_assembly.svg);
+}
+
+.item.file[title$='.ats']::before {
+    background: url(file_type_ats.svg);
+}
+
+.item.file[title$='.ahk']::before {
+    background: url(file_type_autohotkey.svg);
+}
+
+.item.file[title$='.au3']::before {
+    background: url(file_type_autoit.svg);
+}
+
+.item.file[title$='.avcs']::before {
+    background: url(file_type_avro.svg);
+}
+
+.item.file[title$='.azcli']::before {
+    background: url(file_type_azure.svg);
+}
+
+.item.file[title$='.azure-pipelines.yml']::before {
+    background: url(file_type_azurepipelines.svg);
+}
+
+.item.file[title$='.bal']::before {
+    background: url(file_type_ballerina.svg);
+}
+
+.item.file[title$='.bat']::before {
+    background: url(file_type_bat.svg);
+}
+
+.item.file[title$='.bats']::before {
+    background: url(file_type_bats.svg);
+}
+
+.item.file[title$='.bzl']::before,
+.item.file[title$='.bazel']::before {
+    background: url(file_type_bazel.svg);
+}
+
+.item.file[title$='.bf']::before {
+    background: url(file_type_befunge.svg);
+}
+
+.item.file[title$='.bicep']::before {
+    background: url(file_type_bicep.svg);
+}
+
+.item.file[title$='.biml']::before {
+    background: url(file_type_biml.svg);
+}
+
+.item.file[title$='.blade.php']::before {
+    background: url(file_type_blade.svg);
+}
+
+.item.file[title$='.blitzbasic']::before {
+    background: url(file_type_blitzbasic.svg);
+}
+
+.item.file[title$='.bolt']::before {
+    background: url(file_type_bolt.svg);
+}
+
+.item.file[title$='.bsq']::before {
+    background: url(file_type_bosque.svg);
+}
+
+.item.file[title$='.c']::before {
+    background: url(file_type_c.svg);
+}
+
+.item.file[title$='.cal']::before {
+    background: url(file_type_c_al.svg);
+}
+
+.item.file[title$='.cabal']::before {
+    background: url(file_type_cabal.svg);
+}
+
+.item.file[title$='.Caddyfile']::before {
+    background: url(file_type_caddy.svg);
+}
+
+.item.file[title$='.casc']::before {
+    background: url(file_type_casc.svg);
+}
+
+.item.file[title$='.cddl']::before {
+    background: url(file_type_cddl.svg);
+}
+
+.item.file[title$='.ceylon']::before {
+    background: url(file_type_ceylon.svg);
+}
+
+.item.file[title$='.cfml']::before {
+    background: url(file_type_cf.svg);
+}
+
+.item.file[title$='.cfc']::before {
+    background: url(file_type_cfc.svg);
+}
+
+.item.file[title$='.cfm']::before {
+    background: url(file_type_cfm.svg);
+}
+
+.item.file[title$='.ckbk']::before {
+    background: url(file_type_chef_cookbook.svg);
+}
+
+.item.file[title$='.clojure']::before {
+    background: url(file_type_clojure.svg);
+}
+
+.item.file[title$='.clojurescript']::before {
+    background: url(file_type_clojurescript.svg);
+}
+
+.item.file[title$='.yml']::before {
+    background: url(file_type_cloudfoundry.svg);
+}
+
+.item.file[title$='.cmake']::before,
+.item.file[title$='.CMakeCache.txt']::before {
+    background: url(file_type_cmake.svg);
+}
+
+.item.file[title$='.cbl']::before {
+    background: url(file_type_cobol.svg);
+}
+
+.item.file[title$='.ql']::before {
+    background: url(file_type_codeql.svg);
+}
+
+.item.file[title$='.coffee']::before {
+    background: url(file_type_coffeescript.svg);
+}
+
+.item.file[title$='.properties']::before,
+.item.file[title$='.env']::before {
+    background: url(file_type_config.svg);
+}
+
+.item.file[title$='.confluence']::before {
+    background: url(file_type_confluence.svg);
+}
+
+.item.file[title$='.cpp']::before {
+    background: url(file_type_cpp.svg);
+}
+
+.item.file[title$='.cr']::before {
+    background: url(file_type_crystal.svg);
+}
+
+.item.file[title$='.cs']::before {
+    background: url(file_type_csharp.svg);
+}
+
+.item.file[title$='.css']::before {
+    background: url(file_type_css.svg);
+}
+
+.item.file[title$='.feature']::before {
+    background: url(file_type_cucumber.svg);
+}
+
+.item.file[title$='.cu']::before {
+    background: url(file_type_cuda.svg);
+}
+
+.item.file[title$='.pyx']::before {
+    background: url(file_type_cython.svg);
+}
+
+.item.file[title$='.dal']::before {
+    background: url(file_type_dal.svg);
+}
+
+.item.file[title$='.dart']::before {
+    background: url(file_type_dartlang.svg);
+}
+
+.item.file[title$='.pas']::before {
+    background: url(file_type_delphi.svg);
+}
+
+.item.file[title$='.diff']::before {
+    background: url(file_type_diff.svg);
+}
+
+.item.file[title$='.html']::before {
+    background: url(file_type_django.svg);
+}
+
+.item.file[title$='.d']::before {
+    background: url(file_type_dlang.svg);
+}
+
+.item.file[title$='.dockerfile']::before {
+    background: url(file_type_docker.svg);
+}
+
+.item.file[title$='.gv']::before {
+    background: url(file_type_dotjs.svg);
+}
+
+.item.file[title$='.dox']::before {
+    background: url(file_type_doxygen.svg);
+}
+
+.item.file[title$='.drl']::before {
+    background: url(file_type_drools.svg);
+}
+
+.item.file[title$='.dust']::before {
+    background: url(file_type_dustjs.svg);
+}
+
+.item.file[title$='.dylan']::before {
+    background: url(file_type_dylan.svg);
+}
+
+.item.file[title$='.edge']::before {
+    background: url(file_type_edge.svg);
+}
+
+.item.file[title$='.eex']::before {
+    background: url(file_type_eex.svg);
+}
+
+.item.file[title$='.es']::before {
+    background: url(file_type_elastic.svg);
+}
+
+.item.file[title$='.ex']::before {
+    background: url(file_type_elixir.svg);
+}
+
+.item.file[title$='.elm']::before {
+    background: url(file_type_elm.svg);
+}
+
+.item.file[title$='.erb']::before {
+    background: url(file_type_erb.svg);
+}
+
+.item.file[title$='.erl']::before {
+    background: url(file_type_erlang.svg);
+}
+
+.item.file[title$='.falcon']::before {
+    background: url(file_type_falcon.svg);
+}
+
+.item.file[title$='.fql']::before {
+    background: url(file_type_fauna.svg);
+}
+
+.item.file[title$='.f']::before {
+    background: url(file_type_fortran.svg);
+}
+
+.item.file[title$='.ftl']::before {
+    background: url(file_type_freemarker.svg);
+}
+
+.item.file[title$='.fs']::before {
+    background: url(file_type_fsharp.svg);
+}
+
+.item.file[title$='.fthtml']::before {
+    background: url(file_type_fthtml.svg);
+}
+
+.item.file[title$='.gspec']::before {
+    background: url(file_type_galen.svg);
+}
+
+.item.file[title$='.gml']::before {
+    background: url(file_type_gamemaker.svg);
+}
+
+.item.file[title$='.gml']::before {
+    background: url(file_type_gamemaker2.svg);
+}
+
+.item.file[title$='.gml']::before {
+    background: url(file_type_gamemaker81.svg);
+}
+
+.item.file[title$='.gcode']::before {
+    background: url(file_type_gcode.svg);
+}
+
+.item.file[title$='.gen']::before {
+    background: url(file_type_genstat.svg);
+}
+
+.item.file[title$='.git']::before {
+    background: url(file_type_git.svg);
+}
+
+.item.file[title$='.glsl']::before {
+    background: url(file_type_glsl.svg);
+}
+
+.item.file[title$='.glyphs']::before {
+    background: url(file_type_glyphs.svg);
+}
+
+.item.file[title$='.gp']::before {
+    background: url(file_type_gnuplot.svg);
+}
+
+.item.file[title$='.go']::before {
+    background: url(file_type_go.svg);
+}
+
+.item.file[title$='.api']::before {
+    background: url(file_type_goctl.svg);
+}
+
+.item.file[title$='.gd']::before {
+    background: url(file_type_godot.svg);
+}
+
+.item.file[title$='.gql']::before {
+    background: url(file_type_graphql.svg);
+}
+
+.item.file[title$='.gv']::before {
+    background: url(file_type_graphviz.svg);
+}
+
+.item.file[title$='.groovy']::before {
+    background: url(file_type_groovy.svg);
+}
+
+.item.file[title$='.haml']::before {
+    background: url(file_type_haml.svg);
+}
+
+.item.file[title$='.hbs']::before {
+    background: url(file_type_handlebars.svg);
+}
+
+.item.file[title$='.prg']::before {
+    background: url(file_type_harbour.svg);
+}
+
+.item.file[title$='.hs']::before,
+.item.file[title$='.lhs']::before {
+    background: url(file_type_haskell.svg);
+}
+
+.item.file[title$='.haxe']::before {
+    background: url(file_type_haxe.svg);
+}
+
+.item.file[title$='.helm.tpl']::before {
+    background: url(file_type_helm.svg);
+}
+
+.item.file[title$='.hjson']::before {
+    background: url(file_type_hjson.svg);
+}
+
+.item.file[title$='.hlsl']::before {
+    background: url(file_type_hlsl.svg);
+}
+
+.item.file[title$='.yaml']::before {
+    background: url(file_type_homeassistant.svg);
+}
+
+.item.file[title$='.hosts']::before {
+    background: url(file_type_host.svg);
+}
+
+.item.file[title$='.html']::before {
+    background: url(file_type_html.svg);
+}
+
+.item.file[title$='.http']::before {
+    background: url(file_type_http.svg);
+}
+
+.item.file[title$='.aff']::before {
+    background: url(file_type_hunspell.svg);
+}
+
+.item.file[title$='.hy']::before {
+    background: url(file_type_hy.svg);
+}
+
+.item.file[title$='.hypr']::before {
+    background: url(file_type_hypr.svg);
+}
+
+.item.file[title$='.icl']::before {
+    background: url(file_type_icl.svg);
+}
+
+.item.file[title$='.imba']::before {
+    background: url(file_type_imba.svg);
+}
+
+.item.file[title$='.4gl']::before {
+    background: url(file_type_informix.svg);
+}
+
+.item.file[title$='.ini']::before {
+    background: url(file_type_ini.svg);
+}
+
+.item.file[title$='.ink']::before {
+    background: url(file_type_ink.svg);
+}
+
+.item.file[title$='.iss']::before {
+    background: url(file_type_innosetup.svg);
+}
+
+.item.file[title$='.io']::before {
+    background: url(file_type_io.svg);
+}
+
+.item.file[title$='.id']::before {
+    background: url(file_type_iodine.svg);
+}
+
+.item.file[title$='.janet']::before {
+    background: url(file_type_janet.svg);
+}
+
+.item.file[title$='.java']::before {
+    background: url(file_type_java.svg);
+}
+
+.item.file[title$='.jekyll']::before {
+    background: url(file_type_jekyll.svg);
+}
+
+.item.file[title$='.jenkins']::before {
+    background: url(file_type_jenkins.svg);
+}
+
+.item.file[title$='.jinja']::before {
+    background: url(file_type_jinja.svg);
+}
+
+.item.file[title$='.js']::before {
+    background: url(file_type_js.svg);
+}
+
+.item.file[title$='.json']::before,
+.item.file[title$='.JSON-tmLanguage']::before,
+.item.file[title$='.jsonc']::before {
+    background: url(file_type_json.svg);
+}
+
+.item.file[title$='.json5']::before {
+    background: url(file_type_json5.svg);
+}
+
+.item.file[title$='.jsonnet']::before {
+    background: url(file_type_jsonnet.svg);
+}
+
+.item.file[title$='.jl']::before {
+    background: url(file_type_julia.svg);
+}
+
+.item.file[title$='.k']::before {
+    background: url(file_type_k.svg);
+}
+
+.item.file[title$='.kv']::before {
+    background: url(file_type_kivy.svg);
+}
+
+.item.file[title$='.ks']::before {
+    background: url(file_type_kos.svg);
+}
+
+.item.file[title$='.kt']::before {
+    background: url(file_type_kotlin.svg);
+}
+
+.item.file[title$='..kusto']::before {
+    background: url(file_type_kusto.svg);
+}
+
+.item.file[title$='.lat']::before {
+    background: url(file_type_latino.svg);
+}
+
+.item.file[title$='.less']::before {
+    background: url(file_type_less.svg);
+}
+
+.item.file[title$='.flex']::before {
+    background: url(file_type_lex.svg);
+}
+
+.item.file[title$='.lisp']::before {
+    background: url(file_type_lisp.svg);
+}
+
+.item.file[title$='.log']::before {
+    background: url(file_type_log.svg);
+}
+
+.item.file[title$='.lol']::before {
+    background: url(file_type_lolcode.svg);
+}
+
+.item.file[title$='.lsl']::before {
+    background: url(file_type_lsl.svg);
+}
+
+.item.file[title$='.lua']::before {
+    background: url(file_type_lua.svg);
+}
+
+.item.file[title$='.mk']::before {
+    background: url(file_type_makefile.svg);
+}
+
+.item.file[title$='.md']::before {
+    background: url(file_type_markdown.svg);
+}
+
+.item.file[title$='.marko']::before {
+    background: url(file_type_marko.svg);
+}
+
+.item.file[title$='.mat']::before {
+    background: url(file_type_matlab.svg);
+}
+
+.item.file[title$='.ms']::before {
+    background: url(file_type_maxscript.svg);
+}
+
+.item.file[title$='.mel']::before {
+    background: url(file_type_maya.svg);
+}
+
+.item.file[title$='.mdx']::before {
+    background: url(file_type_mdx.svg);
+}
+
+.item.file[title$='.mediawiki']::before {
+    background: url(file_type_mediawiki.svg);
+}
+
+.item.file[title$='.meson.build']::before {
+    background: url(file_type_meson.svg);
+}
+
+.item.file[title$='.mjml']::before {
+    background: url(file_type_mjml.svg);
+}
+
+.item.file[title$='.pq']::before {
+    background: url(file_type_mlang.svg);
+}
+
+.item.file[title$='.ep']::before {
+    background: url(file_type_mojolicious.svg);
+}
+
+.item.file[title$='.mongo']::before {
+    background: url(file_type_mongo.svg);
+}
+
+.item.file[title$='.mson']::before {
+    background: url(file_type_mson.svg);
+}
+
+.item.file[title$='.ne']::before {
+    background: url(file_type_nearly.svg);
+}
+
+.item.file[title$='.nim']::before {
+    background: url(file_type_nim.svg);
+}
+
+.item.file[title$='.nimble']::before {
+    background: url(file_type_nimble.svg);
+}
+
+.item.file[title$='.nix']::before {
+    background: url(file_type_nix.svg);
+}
+
+.item.file[title$='.nsi']::before {
+    background: url(file_type_nsi.svg);
+}
+
+.item.file[title$='.nunjucks']::before {
+    background: url(file_type_nunjucks.svg);
+}
+
+.item.file[title$='.m']::before {
+    background: url(file_type_objectivec.svg);
+}
+
+.item.file[title$='.mm']::before {
+    background: url(file_type_objectivecpp.svg);
+}
+
+.item.file[title$='.ml']::before {
+    background: url(file_type_ocaml.svg);
+}
+
+.item.file[title$='.o3']::before {
+    background: url(file_type_ogone.svg);
+}
+
+.item.file[title$='.things']::before {
+    background: url(file_type_openHAB.svg);
+}
+
+.item.file[title$='.scad']::before {
+    background: url(file_type_openscad.svg);
+}
+
+.item.file[title$='.pddl']::before {
+    background: url(file_type_pddl.svg);
+}
+
+.item.file[title$='.happenings']::before {
+    background: url(file_type_pddl_happenings.svg);
+}
+
+.item.file[title$='.plan']::before {
+    background: url(file_type_pddl_plan.svg);
+}
+
+.item.file[title$='.pl']::before {
+    background: url(file_type_perl.svg);
+}
+
+.item.file[title$='.pl6']::before {
+    background: url(file_type_perl6.svg);
+}
+
+.item.file[title$='.pgsql']::before {
+    background: url(file_type_pgsql.svg);
+}
+
+.item.file[title$='.php']::before {
+    background: url(file_type_php.svg);
+}
+
+.item.file[title$='.pine']::before {
+    background: url(file_type_pine.svg);
+}
+
+.item.file[title$='.requirements.txt']::before {
+    background: url(file_type_pip.svg);
+}
+
+.item.file[title$='.dbgasm']::before {
+    background: url(file_type_platformio.svg);
+}
+
+.item.file[title$='.ddl']::before {
+    background: url(file_type_plsql.svg);
+}
+
+.item.file[title$='.polymer']::before {
+    background: url(file_type_polymer.svg);
+}
+
+.item.file[title$='.pony']::before {
+    background: url(file_type_pony.svg);
+}
+
+.item.file[title$='.pcss']::before {
+    background: url(file_type_postcss.svg);
+}
+
+.item.file[title$='.ps1']::before {
+    background: url(file_type_powershell.svg);
+}
+
+.item.file[title$='.prisma']::before {
+    background: url(file_type_prisma.svg);
+}
+
+.item.file[title$='.pde']::before {
+    background: url(file_type_processinglang.svg);
+}
+
+.item.file[title$='.w']::before {
+    background: url(file_type_progress.svg);
+}
+
+.item.file[title$='.pro']::before {
+    background: url(file_type_prolog.svg);
+}
+
+.item.file[title$='.rules']::before {
+    background: url(file_type_prometheus.svg);
+}
+
+.item.file[title$='.proto']::before {
+    background: url(file_type_protobuf.svg);
+}
+
+.item.file[title$='.pug']::before {
+    background: url(file_type_pug.svg);
+}
+
+.item.file[title$='.pp']::before {
+    background: url(file_type_puppet.svg);
+}
+
+.item.file[title$='.purs']::before {
+    background: url(file_type_purescript.svg);
+}
+
+.item.file[title$='.arr']::before {
+    background: url(file_type_pyret.svg);
+}
+
+.item.file[title$='.py']::before {
+    background: url(file_type_python.svg);
+}
+
+.item.file[title$='.qvs']::before {
+    background: url(file_type_qlikview.svg);
+}
+
+.item.file[title$='.qml']::before {
+    background: url(file_type_qml.svg);
+}
+
+.item.file[title$='.qs']::before {
+    background: url(file_type_qsharp.svg);
+}
+
+.item.file[title$='.r']::before {
+    background: url(file_type_r.svg);
+}
+
+.item.file[title$='.rkt']::before {
+    background: url(file_type_racket.svg);
+}
+
+.item.file[title$='.raml']::before {
+    background: url(file_type_raml.svg);
+}
+
+.item.file[title$='.cshtml']::before {
+    background: url(file_type_razor.svg);
+}
+
+.item.file[title$='.jsx']::before {
+    background: url(file_type_reactjs.svg);
+}
+
+.item.file[title$='.tsx']::before {
+    background: url(file_type_reactts.svg);
+}
+
+.item.file[title$='.re']::before {
+    background: url(file_type_reason.svg);
+}
+
+.item.file[title$='.red']::before {
+    background: url(file_type_red.svg);
+}
+
+.item.file[title$='.res']::before {
+    background: url(file_type_rescript.svg);
+}
+
+.item.file[title$='.rst']::before {
+    background: url(file_type_rest.svg);
+}
+
+.item.file[title$='.rex']::before {
+    background: url(file_type_rexx.svg);
+}
+
+.item.file[title$='.tag']::before {
+    background: url(file_type_riot.svg);
+}
+
+.item.file[title$='.rmd']::before {
+    background: url(file_type_rmd.svg);
+}
+
+.item.file[title$='.robot']::before {
+    background: url(file_type_robotframework.svg);
+}
+
+.item.file[title$='.rb']::before {
+    background: url(file_type_ruby.svg);
+}
+
+.item.file[title$='.rs']::before {
+    background: url(file_type_rust.svg);
+}
+
+.item.file[title$='.san']::before {
+    background: url(file_type_san.svg);
+}
+
+.item.file[title$='.sas']::before {
+    background: url(file_type_sas.svg);
+}
+
+.item.file[title$='.sbt']::before {
+    background: url(file_type_sbt.svg);
+}
+
+.item.file[title$='.scala']::before {
+    background: url(file_type_scala.svg);
+}
+
+.item.file[title$='.sce']::before {
+    background: url(file_type_scilab.svg);
+}
+
+.item.file[title$='.wsf']::before {
+    background: url(file_type_script.svg);
+}
+
+.item.file[title$='.scss']::before {
+    background: url(file_type_scss.svg);
+}
+
+.item.file[title$='.sdl']::before {
+    background: url(file_type_sdlang.svg);
+}
+
+.item.file[title$='.shader']::before {
+    background: url(file_type_shaderlab.svg);
+}
+
+.item.file[title$='.sh']::before {
+    background: url(file_type_shell.svg);
+}
+
+.item.file[title$='.ss']::before {
+    background: url(file_type_silverstripe.svg);
+}
+
+.item.file[title$='.eskip']::before {
+    background: url(file_type_skipper.svg);
+}
+
+.item.file[title$='.slang']::before {
+    background: url(file_type_slang.svg);
+}
+
+.item.file[title$='.ice']::before {
+    background: url(file_type_slice.svg);
+}
+
+.item.file[title$='.slim']::before {
+    background: url(file_type_slim.svg);
+}
+
+.item.file[title$='.tpl']::before {
+    background: url(file_type_smarty.svg);
+}
+
+.item.file[title$='.snort']::before {
+    background: url(file_type_snort.svg);
+}
+
+.item.file[title$='.sol']::before {
+    background: url(file_type_solidity.svg);
+}
+
+.item.file[title$='.rq']::before {
+    background: url(file_type_sparql.svg);
+}
+
+.item.file[title$='.sqf']::before {
+    background: url(file_type_sqf.svg);
+}
+
+.item.file[title$='.sql']::before {
+    background: url(file_type_sql.svg);
+}
+
+.item.file[title$='.nut']::before {
+    background: url(file_type_squirrel.svg);
+}
+
+.item.file[title$='.stan']::before {
+    background: url(file_type_stan.svg);
+}
+
+.item.file[title$='.do']::before {
+    background: url(file_type_stata.svg);
+}
+
+.item.file[title$='.stencil']::before,
+.item.file[title$='.html.stencil']::before {
+    background: url(file_type_stencil.svg);
+}
+
+.item.file[title$='.st.css']::before {
+    background: url(file_type_stylable.svg);
+}
+
+.item.file[title$='.styled']::before {
+    background: url(file_type_styled.svg);
+}
+
+.item.file[title$='.styl']::before {
+    background: url(file_type_stylus.svg);
+}
+
+.item.file[title$='.svelte']::before {
+    background: url(file_type_svelte.svg);
+}
+
+.item.file[title$='.swagger']::before {
+    background: url(file_type_swagger.svg);
+}
+
+.item.file[title$='.swift']::before {
+    background: url(file_type_swift.svg);
+}
+
+.item.file[title$='.swig']::before {
+    background: url(file_type_swig.svg);
+}
+
+.item.file[title$='.link']::before {
+    background: url(file_type_systemd.svg);
+}
+
+.item.file[title$='.sv']::before {
+    background: url(file_type_systemverilog.svg);
+}
+
+.item.file[title$='.tt3']::before {
+    background: url(file_type_t4tt.svg);
+}
+
+.item.file[title$='.teal']::before {
+    background: url(file_type_teal.svg);
+}
+
+.item.file[title$='.tera']::before {
+    background: url(file_type_tera.svg);
+}
+
+.item.file[title$='.tf']::before {
+    background: url(file_type_terraform.svg);
+}
+
+.item.file[title$='.sty']::before,
+.item.file[title$='.bib']::before,
+.item.file[title$='.dtx']::before {
+    background: url(file_type_tex.svg);
+}
+
+.item.file[title$='.txt']::before {
+    background: url(file_type_text.svg);
+}
+
+.item.file[title$='.textile']::before {
+    background: url(file_type_textile.svg);
+}
+
+.item.file[title$='.Tiltfile']::before {
+    background: url(file_type_tiltfile.svg);
+}
+
+.item.file[title$='.toit']::before {
+    background: url(file_type_toit.svg);
+}
+
+.item.file[title$='.toml']::before {
+    background: url(file_type_toml.svg);
+}
+
+.item.file[title$='.tt3']::before {
+    background: url(file_type_tt.svg);
+}
+
+.item.file[title$='.ttcn3']::before {
+    background: url(file_type_ttcn.svg);
+}
+
+.item.file[title$='.tuc']::before {
+    background: url(file_type_tuc.svg);
+}
+
+.item.file[title$='.twig']::before {
+    background: url(file_type_twig.svg);
+}
+
+.item.file[title$='.ts']::before {
+    background: url(file_type_typescript.svg);
+}
+
+.item.file[title$='.typoscript']::before {
+    background: url(file_type_typo3.svg);
+}
+
+.item.file[title$='.vb']::before {
+    background: url(file_type_vb.svg);
+}
+
+.item.file[title$='.cls']::before {
+    background: url(file_type_vba.svg);
+}
+
+.item.file[title$='.vm']::before {
+    background: url(file_type_velocity.svg);
+}
+
+.item.file[title$='.v']::before {
+    background: url(file_type_verilog.svg);
+}
+
+.item.file[title$='.vhdl']::before {
+    background: url(file_type_vhdl.svg);
+}
+
+.item.file[title$='.vim']::before {
+    background: url(file_type_vim.svg);
+}
+
+.item.file[title$='.v']::before {
+    background: url(file_type_vlang.svg);
+}
+
+.item.file[title$='.volt']::before {
+    background: url(file_type_volt.svg);
+}
+
+.item.file[title$='.vue']::before {
+    background: url(file_type_vue.svg);
+}
+
+.item.file[title$='.wasm']::before {
+    background: url(file_type_wasm.svg);
+}
+
+.item.file[title$='.wy']::before {
+    background: url(file_type_wenyan.svg);
+}
+
+.item.file[title$='.wl']::before {
+    background: url(file_type_wolfram.svg);
+}
+
+.item.file[title$='.wurst']::before {
+    background: url(file_type_wurst.svg);
+}
+
+.item.file[title$='.xmake.lua']::before {
+    background: url(file_type_xmake.svg);
+}
+
+.item.file[title$='.xml']::before {
+    background: url(file_type_xml.svg);
+}
+
+.item.file[title$='.xquery']::before {
+    background: url(file_type_xquery.svg);
+}
+
+.item.file[title$='.xsl']::before {
+    background: url(file_type_xsl.svg);
+}
+
+.item.file[title$='.bison']::before {
+    background: url(file_type_yacc.svg);
+}
+
+.item.file[title$='.yaml']::before,
+.item.file[title$='.YAML-tmLanguage']::before {
+    background: url(file_type_yaml.svg);
+}
+
+.item.file[title$='.yang']::before {
+    background: url(file_type_yang.svg);
+}
+
+.item.file[title$='.zig']::before {
+    background: url(file_type_zig.svg);
+}
+
+/* 根据文件后缀匹配图标 */
+.item.file[title$='.accdb']::before,
+.item.file[title$='.accdt']::before,
+.item.file[title$='.mdb']::before,
+.item.file[title$='.accda']::before,
+.item.file[title$='.accdc']::before,
+.item.file[title$='.accde']::before,
+.item.file[title$='.accdp']::before,
+.item.file[title$='.accdr']::before,
+.item.file[title$='.accdu']::before,
+.item.file[title$='.ade']::before,
+.item.file[title$='.adp']::before,
+.item.file[title$='.laccdb']::before,
+.item.file[title$='.ldb']::before,
+.item.file[title$='.mam']::before,
+.item.file[title$='.maq']::before,
+.item.file[title$='.mdw']::before {
+    background: url(file_type_access.svg);
+}
+
+.item.file[title$='.afdesign']::before,
+.item.file[title$='.affinitydesigner']::before {
+    background: url(file_type_affinitydesigner.svg);
+}
+
+.item.file[title$='.afphoto']::before,
+.item.file[title$='.affinityphoto']::before {
+    background: url(file_type_affinityphoto.svg);
+}
+
+.item.file[title$='.afpub']::before,
+.item.file[title$='.affinitypublisher']::before {
+    background: url(file_type_affinitypublisher.svg);
+}
+
+.item.file[title$='.ai']::before {
+    background: url(file_type_ai.svg);
+}
+
+.item.file[title$='.ino']::before,
+.item.file[title$='.pde']::before {
+    background: url(file_type_arduino.svg);
+}
+
+.item.file[title$='.aspx']::before,
+.item.file[title$='.ascx']::before {
+    background: url(file_type_aspx.svg);
+}
+
+.item.file[title$='.astro']::before {
+    background: url(file_type_astro.svg);
+}
+
+.item.file[title$='.aac']::before,
+.item.file[title$='.act']::before,
+.item.file[title$='.aiff']::before,
+.item.file[title$='.amr']::before,
+.item.file[title$='.ape']::before,
+.item.file[title$='.au']::before,
+.item.file[title$='.dct']::before,
+.item.file[title$='.dss']::before,
+.item.file[title$='.dvf']::before,
+.item.file[title$='.flac']::before,
+.item.file[title$='.gsm']::before,
+.item.file[title$='.iklax']::before,
+.item.file[title$='.ivs']::before,
+.item.file[title$='.m4a']::before,
+.item.file[title$='.m4b']::before,
+.item.file[title$='.m4p']::before,
+.item.file[title$='.mmf']::before,
+.item.file[title$='.mogg']::before,
+.item.file[title$='.mp3']::before,
+.item.file[title$='.mpc']::before,
+.item.file[title$='.msv']::before,
+.item.file[title$='.oga']::before,
+.item.file[title$='.ogg']::before,
+.item.file[title$='.opus']::before,
+.item.file[title$='.ra']::before,
+.item.file[title$='.raw']::before,
+.item.file[title$='.tta']::before,
+.item.file[title$='.vox']::before,
+.item.file[title$='.wav']::before,
+.item.file[title$='.wma']::before {
+    background: url(file_type_audio.svg);
+}
+
+.item.file[title$='.avif']::before {
+    background: url(file_type_avif.svg);
+}
+
+.item.file[title$='.awk']::before {
+    background: url(file_type_awk.svg);
+}
+
+.item.file[title$='.a']::before,
+.item.file[title$='.app']::before,
+.item.file[title$='.bin']::before,
+.item.file[title$='.cmo']::before,
+.item.file[title$='.cmx']::before,
+.item.file[title$='.cma']::before,
+.item.file[title$='.cmxa']::before,
+.item.file[title$='.cmi']::before,
+.item.file[title$='.dll']::before,
+.item.file[title$='.exe']::before,
+.item.file[title$='.hl']::before,
+.item.file[title$='.ilk']::before,
+.item.file[title$='.lib']::before,
+.item.file[title$='.n']::before,
+.item.file[title$='.ndll']::before,
+.item.file[title$='.o']::before,
+.item.file[title$='.obj']::before,
+.item.file[title$='.pyc']::before,
+.item.file[title$='.pyd']::before,
+.item.file[title$='.pyo']::before,
+.item.file[title$='.pdb']::before,
+.item.file[title$='.scpt']::before,
+.item.file[title$='.scptd']::before,
+.item.file[title$='.so']::before {
+    background: url(file_type_binary.svg);
+}
+
+.item.file[title$='.bb']::before {
+    background: url(file_type_blitzbasic.svg);
+}
+
+.item.file[title$='.gemfile']::before,
+.item.file[title$='.gemfile.lock']::before {
+    background: url(file_type_bundler.svg);
+}
+
+.item.file[title$='.cake']::before {
+    background: url(file_type_cake.svg);
+}
+
+.item.file[title$='.csr']::before,
+.item.file[title$='.crt']::before,
+.item.file[title$='.cer']::before,
+.item.file[title$='.der']::before,
+.item.file[title$='.pfx']::before,
+.item.file[title$='.p12']::before,
+.item.file[title$='.p7b']::before,
+.item.file[title$='.p7r']::before,
+.item.file[title$='.src']::before,
+.item.file[title$='.crl']::before,
+.item.file[title$='.sst']::before,
+.item.file[title$='.stl']::before {
+    background: url(file_type_cert.svg);
+}
+
+.item.file[title$='.lucee']::before {
+    background: url(file_type_cf.svg);
+}
+
+.item.file[title$='.h']::before {
+    background: url(file_type_cheader.svg);
+}
+
+.item.file[title$='.class']::before {
+    background: url(file_type_class.svg);
+}
+
+.item.file[title$='.cjm']::before,
+.item.file[title$='.cljc']::before {
+    background: url(file_type_clojure.svg);
+}
+
+.item.file[title$='.cljs']::before {
+    background: url(file_type_clojurescript.svg);
+}
+
+.item.file[title$='.kit']::before {
+    background: url(file_type_codekit.svg);
+}
+
+.item.file[title$='.plist']::before {
+    background: url(file_type_config.svg);
+}
+
+.item.file[title$='.hpp']::before,
+.item.file[title$='.hh']::before,
+.item.file[title$='.hxx']::before,
+.item.file[title$='.h++']::before {
+    background: url(file_type_cppheader.svg);
+}
+
+.item.file[title$='.csx']::before {
+    background: url(file_type_csharp.svg);
+}
+
+.item.file[title$='.csproj']::before {
+    background: url(file_type_csproj.svg);
+}
+
+.item.file[title$='.css.map']::before {
+    background: url(file_type_cssmap.svg);
+}
+
+.item.file[title$='.g.dart']::before,
+.item.file[title$='.freezed.dart']::before {
+    background: url(file_type_dartlang_generated.svg);
+}
+
+.item.file[title$='.db']::before {
+    background: url(file_type_db.svg);
+}
+
+.item.file[title$='.djt']::before {
+    background: url(file_type_django.svg);
+}
+
+.item.file[title$='.eco']::before {
+    background: url(file_type_docpad.svg);
+}
+
+.item.file[title$='.drawio']::before,
+.item.file[title$='.dio']::before,
+.item.file[title$='.drawio.png']::before,
+.item.file[title$='.drawio.svg']::before {
+    background: url(file_type_drawio.svg);
+}
+
+.item.file[title$='.ejs']::before {
+    background: url(file_type_ejs.svg);
+}
+
+.item.file[title$='.el']::before,
+.item.file[title$='.elc']::before {
+    background: url(file_type_emacs.svg);
+}
+
+.item.file[title$='.ensime']::before {
+    background: url(file_type_ensime.svg);
+}
+
+.item.file[title$='.eps']::before {
+    background: url(file_type_eps.svg);
+}
+
+.item.file[title$='.xls']::before,
+.item.file[title$='.xlsx']::before,
+.item.file[title$='.xlsm']::before,
+.item.file[title$='.ods']::before,
+.item.file[title$='.fods']::before,
+.item.file[title$='.xlsb']::before {
+    background: url(file_type_excel.svg);
+}
+
+.item.file[title$='.fbx']::before {
+    background: url(file_type_fbx.svg);
+}
+
+.item.file[title$='.fba']::before {
+    background: url(file_type_fitbit.svg);
+}
+
+.item.file[title$='.fla']::before {
+    background: url(file_type_fla.svg);
+}
+
+.item.file[title$='.swf']::before,
+.item.file[title$='.swc']::before {
+    background: url(file_type_flash.svg);
+}
+
+.item.file[title$='.js.flow']::before {
+    background: url(file_type_flow.svg);
+}
+
+.item.file[title$='.woff']::before,
+.item.file[title$='.woff2']::before,
+.item.file[title$='.ttf']::before,
+.item.file[title$='.otf']::before,
+.item.file[title$='.eot']::before,
+.item.file[title$='.pfa']::before,
+.item.file[title$='.pfb']::before,
+.item.file[title$='.sfd']::before {
+    background: url(file_type_font.svg);
+}
+
+.item.file[title$='.fsproj']::before {
+    background: url(file_type_fsproj.svg);
+}
+
+.item.file[title$='.gmx']::before {
+    background: url(file_type_gamemaker.svg);
+}
+
+.item.file[title$='.yy']::before,
+.item.file[title$='.yyp']::before {
+    background: url(file_type_gamemaker2.svg);
+}
+
+.item.file[title$='.gradle']::before {
+    background: url(file_type_gradle.svg);
+}
+
+.item.file[title$='.hxproj']::before {
+    background: url(file_type_haxedevelop.svg);
+}
+
+.item.file[title$='.ejs.t']::before {
+    background: url(file_type_hygen.svg);
+}
+
+.item.file[title$='.idr']::before,
+.item.file[title$='.lidr']::before {
+    background: url(file_type_idris.svg);
+}
+
+.item.file[title$='.ibc']::before {
+    background: url(file_type_idrisbin.svg);
+}
+
+.item.file[title$='.ipkg']::before {
+    background: url(file_type_idrispkg.svg);
+}
+
+.item.file[title$='.jpeg']::before,
+.item.file[title$='.jpg']::before,
+.item.file[title$='.gif']::before,
+.item.file[title$='.png']::before,
+.item.file[title$='.bmp']::before,
+.item.file[title$='.tiff']::before,
+.item.file[title$='.ico']::before {
+    background: url(file_type_image.svg);
+}
+
+.item.file[title$='.imba']::before,
+.item.file[title$='.imba2']::before {
+    background: url(file_type_imba.svg);
+}
+
+.item.file[title$='.inc']::before,
+.item.file[title$='.include']::before {
+    background: url(file_type_inc.svg);
+}
+
+.item.file[title$='.infopathxml']::before,
+.item.file[title$='.xsn']::before,
+.item.file[title$='.xsf']::before,
+.item.file[title$='.xtp2']::before {
+    background: url(file_type_infopath.svg);
+}
+
+.item.file[title$='.jar']::before {
+    background: url(file_type_jar.svg);
+}
+
+.item.file[title$='.jbuilder']::before {
+    background: url(file_type_jbuilder.svg);
+}
+
+.item.file[title$='.js.snap']::before,
+.item.file[title$='.jsx.snap']::before,
+.item.file[title$='.ts.snap']::before,
+.item.file[title$='.tsx.snap']::before {
+    background: url(file_type_jest_snapshot.svg);
+}
+
+.item.file[title$='.js.map']::before,
+.item.file[title$='.cjs.map']::before,
+.item.file[title$='.mjs.map']::before {
+    background: url(file_type_jsmap.svg);
+}
+
+.item.file[title$='.json5']::before {
+    background: url(file_type_json5.svg);
+}
+
+.item.file[title$='.jsonld']::before,
+.item.file[title$='.json-ld']::before {
+    background: url(file_type_jsonld.svg);
+}
+
+.item.file[title$='.jsp']::before {
+    background: url(file_type_jsp.svg);
+}
+
+.item.file[title$='.jss']::before {
+    background: url(file_type_jss.svg);
+}
+
+.item.file[title$='.ipynb']::before {
+    background: url(file_type_jupyter.svg);
+}
+
+.item.file[title$='.key']::before,
+.item.file[title$='.pem']::before {
+    background: url(file_type_key.svg);
+}
+
+.item.file[title$='.master']::before,
+.item.file[title$='.layout.html']::before,
+.item.file[title$='.layout.htm']::before {
+    background: url(file_type_layout.svg);
+}
+
+.item.file[title$='.enc']::before,
+.item.file[title$='.license']::before,
+.item.file[title$='.lic']::before {
+    background: url(file_type_license.svg);
+}
+
+.item.file[title$='.hxp']::before {
+    background: url(file_type_lime.svg);
+}
+
+.item.file[title$='.liquid']::before {
+    background: url(file_type_liquid.svg);
+}
+
+.item.file[title$='.ls']::before {
+    background: url(file_type_livescript.svg);
+}
+
+.item.file[title$='.lnk']::before {
+    background: url(file_type_lnk.svg);
+}
+
+.item.file[title$='.log']::before,
+.item.file[title$='.tlg']::before {
+    background: url(file_type_log.svg);
+}
+
+.item.file[title$='.luau']::before {
+    background: url(file_type_luau.svg);
+}
+
+.item.file[title$='.crec']::before,
+.item.file[title$='.ocrec']::before {
+    background: url(file_type_lync.svg);
+}
+
+.item.file[title$='.makefile']::before {
+    background: url(file_type_makefile.svg);
+}
+
+.item.file[title$='.map']::before {
+    background: url(file_type_map.svg);
+}
+
+.item.file[title$='.mdown']::before,
+.item.file[title$='.markdown']::before {
+    background: url(file_type_markdown.svg);
+}
+
+.item.file[title$='.marko.js']::before {
+    background: url(file_type_markojs.svg);
+}
+
+.item.file[title$='.fig']::before,
+.item.file[title$='.mex']::before,
+.item.file[title$='.mexn']::before,
+.item.file[title$='.mexrs6']::before,
+.item.file[title$='.mn']::before,
+.item.file[title$='.mum']::before,
+.item.file[title$='.mx']::before,
+.item.file[title$='.mx3']::before,
+.item.file[title$='.rwd']::before,
+.item.file[title$='.slx']::before,
+.item.file[title$='.slddc']::before,
+.item.file[title$='.smv']::before,
+.item.file[title$='.xvc']::before {
+    background: url(file_type_matlab.svg);
+}
+
+.item.file[title$='.mustache']::before,
+.item.file[title$='.mst']::before {
+    background: url(file_type_mustache.svg);
+}
+
+.item.file[title$='.ndst.yaml']::before,
+.item.file[title$='.ndst.yml']::before,
+.item.file[title$='.ndst.json']::before {
+    background: url(file_type_ndst.svg);
+}
+
+.item.file[title$='.njsproj']::before {
+    background: url(file_type_njsproj.svg);
+}
+
+.item.file[title$='.nupkg']::before,
+.item.file[title$='.snupkg']::before,
+.item.file[title$='.nuspec']::before,
+.item.file[title$='.psmdcp']::before {
+    background: url(file_type_nuget.svg);
+}
+
+.item.file[title$='.npy']::before,
+.item.file[title$='.npz']::before {
+    background: url(file_type_numpy.svg);
+}
+
+.item.file[title$='.nunj']::before,
+.item.file[title$='.njs']::before {
+    background: url(file_type_nunjucks.svg);
+}
+
+.item.file[title$='.one']::before,
+.item.file[title$='.onepkg']::before,
+.item.file[title$='.onetoc']::before,
+.item.file[title$='.onetoc2']::before,
+.item.file[title$='.sig']::before {
+    background: url(file_type_onenote.svg);
+}
+
+.item.file[title$='.cl']::before,
+.item.file[title$='.opencl']::before {
+    background: url(file_type_opencl.svg);
+}
+
+.item.file[title$='.org']::before {
+    background: url(file_type_org.svg);
+}
+
+.item.file[title$='.pst']::before,
+.item.file[title$='.bcmx']::before,
+.item.file[title$='.otm']::before,
+.item.file[title$='.msg']::before,
+.item.file[title$='.oft']::before {
+    background: url(file_type_outlook.svg);
+}
+
+.item.file[title$='.ovpn']::before {
+    background: url(file_type_ovpn.svg);
+}
+
+.item.file[title$='.pkg']::before {
+    background: url(file_type_package.svg);
+}
+
+.item.file[title$='.patch']::before {
+    background: url(file_type_patch.svg);
+}
+
+.item.file[title$='.pcd']::before {
+    background: url(file_type_pcl.svg);
+}
+
+.item.file[title$='.pdf']::before {
+    background: url(file_type_pdf.svg);
+}
+
+.item.file[title$='.psd']::before {
+    background: url(file_type_photoshop.svg);
+}
+
+.item.file[title$='.php1']::before,
+.item.file[title$='.php2']::before,
+.item.file[title$='.php3']::before,
+.item.file[title$='.php4']::before,
+.item.file[title$='.php5']::before,
+.item.file[title$='.php6']::before,
+.item.file[title$='.phps']::before,
+.item.file[title$='.phpsa']::before,
+.item.file[title$='.phpt']::before,
+.item.file[title$='.phtml']::before,
+.item.file[title$='.phar']::before {
+    background: url(file_type_php.svg);
+}
+
+.item.file[title$='.pipeline']::before {
+    background: url(file_type_pipeline.svg);
+}
+
+.item.file[title$='.pu']::before,
+.item.file[title$='.plantuml']::before,
+.item.file[title$='.iuml']::before,
+.item.file[title$='.puml']::before {
+    background: url(file_type_plantuml.svg);
+}
+
+.item.file[title$='.pck']::before {
+    background: url(file_type_plsql_package.svg);
+}
+
+.item.file[title$='.pkb']::before {
+    background: url(file_type_plsql_package_body.svg);
+}
+
+.item.file[title$='.pkh']::before {
+    background: url(file_type_plsql_package_header.svg);
+}
+
+.item.file[title$='.pks']::before {
+    background: url(file_type_plsql_package_spec.svg);
+}
+
+.item.file[title$='.po']::before,
+.item.file[title$='.mo']::before {
+    background: url(file_type_poedit.svg);
+}
+
+.item.file[title$='.pot']::before,
+.item.file[title$='.potx']::before,
+.item.file[title$='.potm']::before,
+.item.file[title$='.pps']::before,
+.item.file[title$='.ppsx']::before,
+.item.file[title$='.ppsm']::before,
+.item.file[title$='.ppt']::before,
+.item.file[title$='.pptx']::before,
+.item.file[title$='.pptm']::before,
+.item.file[title$='.pa']::before,
+.item.file[title$='.ppa']::before,
+.item.file[title$='.ppam']::before,
+.item.file[title$='.sldm']::before,
+.item.file[title$='.sldx']::before {
+    background: url(file_type_powerpoint.svg);
+}
+
+.item.file[title$='.format.ps1xml']::before {
+    background: url(file_type_powershell_format.svg);
+}
+
+.item.file[title$='.psd1']::before {
+    background: url(file_type_powershell_psd.svg);
+}
+
+.item.file[title$='.psm1']::before {
+    background: url(file_type_powershell_psm.svg);
+}
+
+.item.file[title$='.types.ps1xml']::before {
+    background: url(file_type_powershell_types.svg);
+}
+
+.item.file[title$='.pro']::before,
+.item.file[title$='.P']::before {
+    background: url(file_type_prolog.svg);
+}
+
+.item.file[title$='.pub']::before,
+.item.file[title$='.puz']::before {
+    background: url(file_type_publisher.svg);
+}
+
+.item.file[title$='.q']::before {
+    background: url(file_type_q.svg);
+}
+
+.item.file[title$='.qbs']::before {
+    background: url(file_type_qbs.svg);
+}
+
+.item.file[title$='.qvd']::before,
+.item.file[title$='.qvw']::before {
+    background: url(file_type_qlikview.svg);
+}
+
+.item.file[title$='.rake']::before {
+    background: url(file_type_rake.svg);
+}
+
+.item.file[title$='.rt']::before {
+    background: url(file_type_reacttemplate.svg);
+}
+
+.item.file[title$='.reg']::before {
+    background: url(file_type_registry.svg);
+}
+
+.item.file[title$='.rego']::before {
+    background: url(file_type_rego.svg);
+}
+
+.item.file[title$='.rproj']::before {
+    background: url(file_type_rproj.svg);
+}
+
+.item.file[title$='.sls']::before {
+    background: url(file_type_saltstack.svg);
+}
+
+.item.file[title$='.sass']::before {
+    background: url(file_type_sass.svg);
+}
+
+.item.file[title$='.scssm']::before {
+    background: url(file_type_scss.svg);
+}
+
+.item.file[title$='.unity']::before {
+    background: url(file_type_shaderlab.svg);
+}
+
+.item.file[title$='.fish']::before {
+    background: url(file_type_shell.svg);
+}
+
+.item.file[title$='.sketch']::before {
+    background: url(file_type_sketch.svg);
+}
+
+.item.file[title$='.eskip']::before {
+    background: url(file_type_skipper.svg);
+}
+
+.item.file[title$='.sln']::before {
+    background: url(file_type_sln.svg);
+}
+
+.item.file[title$='.spe']::before {
+    background: url(file_type_spacengine.svg);
+}
+
+.item.file[title$='.sqlite']::before,
+.item.file[title$='.sqlite3']::before,
+.item.file[title$='.db3']::before {
+    background: url(file_type_sqlite.svg);
+}
+
+.item.file[title$='.sss']::before {
+    background: url(file_type_sss.svg);
+}
+
+.item.file[title$='.dta']::before {
+    background: url(file_type_stata.svg);
+}
+
+.item.file[title$='.storyboard']::before {
+    background: url(file_type_storyboard.svg);
+}
+
+.item.file[title$='.story.js']::before,
+.item.file[title$='.story.jsx']::before,
+.item.file[title$='.story.ts']::before,
+.item.file[title$='.story.tsx']::before,
+.item.file[title$='.story.mdx']::before,
+.item.file[title$='.stories.js']::before,
+.item.file[title$='.stories.jsx']::before,
+.item.file[title$='.stories.ts']::before,
+.item.file[title$='.stories.tsx']::before,
+.item.file[title$='.stories.mdx']::before {
+    background: url(file_type_storybook.svg);
+}
+
+.item.file[title$='.svg']::before {
+    background: url(file_type_svg.svg);
+}
+
+.item.file[title$='.tcl']::before,
+.item.file[title$='.exp']::before {
+    background: url(file_type_tcl.svg);
+}
+
+.item.file[title$='.tfstate']::before {
+    background: url(file_type_terraform.svg);
+}
+
+.item.file[title$='.tst']::before {
+    background: url(file_type_test.svg);
+}
+
+.item.file[title$='.test.js']::before,
+.item.file[title$='.test.jsx']::before,
+.item.file[title$='.test.mjs']::before,
+.item.file[title$='.spec.js']::before,
+.item.file[title$='.spec.jsx']::before,
+.item.file[title$='.spec.mjs']::before {
+    background: url(file_type_testjs.svg);
+}
+
+.item.file[title$='.test.ts']::before,
+.item.file[title$='.test.tsx']::before,
+.item.file[title$='.spec.ts']::before,
+.item.file[title$='.spec.tsx']::before,
+.item.file[title$='.e2e-test.ts']::before,
+.item.file[title$='.e2e-test.tsx']::before,
+.item.file[title$='.e2e-spec.ts']::before,
+.item.file[title$='.e2e-spec.tsx']::before {
+    background: url(file_type_testts.svg);
+}
+
+.item.file[title$='.texi']::before,
+.item.file[title$='.tikz']::before {
+    background: url(file_type_tex.svg);
+}
+
+.item.file[title$='.csv']::before,
+.item.file[title$='.tsv']::before {
+    background: url(file_type_text.svg);
+}
+
+.item.file[title$='.todo']::before {
+    background: url(file_type_todo.svg);
+}
+
+.item.file[title$='.tt2']::before {
+    background: url(file_type_tt.svg);
+}
+
+.item.file[title$='.d.ts']::before,
+.item.file[title$='.d.cts']::before,
+.item.file[title$='.d.mts']::before {
+    background: url(file_type_typescriptdef.svg);
+}
+
+.item.file[title$='.vala']::before {
+    background: url(file_type_vala.svg);
+}
+
+.item.file[title$='.css.ts']::before {
+    background: url(file_type_vanilla_extract.svg);
+}
+
+.item.file[title$='.vapi']::before {
+    background: url(file_type_vapi.svg);
+}
+
+.item.file[title$='.vash']::before {
+    background: url(file_type_vash.svg);
+}
+
+.item.file[title$='.vbhtml']::before {
+    background: url(file_type_vbhtml.svg);
+}
+
+.item.file[title$='.vbproj']::before {
+    background: url(file_type_vbproj.svg);
+}
+
+.item.file[title$='.vcxproj']::before {
+    background: url(file_type_vcxproj.svg);
+}
+
+.item.file[title$='.3g2']::before,
+.item.file[title$='.3gp']::before,
+.item.file[title$='.asf']::before,
+.item.file[title$='.amv']::before,
+.item.file[title$='.avi']::before,
+.item.file[title$='.divx']::before,
+.item.file[title$='.qt']::before,
+.item.file[title$='.f4a']::before,
+.item.file[title$='.f4b']::before,
+.item.file[title$='.f4p']::before,
+.item.file[title$='.f4v']::before,
+.item.file[title$='.flv']::before,
+.item.file[title$='.m2v']::before,
+.item.file[title$='.m4v']::before,
+.item.file[title$='.mkv']::before,
+.item.file[title$='.mk3d']::before,
+.item.file[title$='.mov']::before,
+.item.file[title$='.mp2']::before,
+.item.file[title$='.mp4']::before,
+.item.file[title$='.mpe']::before,
+.item.file[title$='.mpeg']::before,
+.item.file[title$='.mpeg2']::before,
+.item.file[title$='.mpg']::before,
+.item.file[title$='.mpv']::before,
+.item.file[title$='.nsv']::before,
+.item.file[title$='.ogv']::before,
+.item.file[title$='.rm']::before,
+.item.file[title$='.rmvb']::before,
+.item.file[title$='.svi']::before,
+.item.file[title$='.vob']::before,
+.item.file[title$='.webm']::before,
+.item.file[title$='.wmv']::before {
+    background: url(file_type_video.svg);
+}
+
+.item.file[title$='.vsix']::before {
+    background: url(file_type_vsix.svg);
+}
+
+.item.file[title$='.vsixmanifest']::before {
+    background: url(file_type_vsixmanifest.svg);
+}
+
+.item.file[title$='.wasm']::before {
+    background: url(file_type_wasm.svg);
+}
+
+.item.file[title$='.webp']::before {
+    background: url(file_type_webp.svg);
+}
+
+.item.file[title$='.doc']::before,
+.item.file[title$='.docx']::before,
+.item.file[title$='.docm']::before,
+.item.file[title$='.dot']::before,
+.item.file[title$='.dotx']::before,
+.item.file[title$='.dotm']::before,
+.item.file[title$='.wll']::before {
+    background: url(file_type_word.svg);
+}
+
+.item.file[title$='.wxml']::before {
+    background: url(file_type_wxml.svg);
+}
+
+.item.file[title$='.wxss']::before {
+    background: url(file_type_wxss.svg);
+}
+
+.item.file[title$='.xcodeproj']::before {
+    background: url(file_type_xcode.svg);
+}
+
+.item.file[title$='.xfl']::before {
+    background: url(file_type_xfl.svg);
+}
+
+.item.file[title$='.xib']::before {
+    background: url(file_type_xib.svg);
+}
+
+.item.file[title$='.xliff']::before,
+.item.file[title$='.xlf']::before {
+    background: url(file_type_xliff.svg);
+}
+
+.item.file[title$='.pex']::before,
+.item.file[title$='.tmlanguage']::before {
+    background: url(file_type_xml.svg);
+}
+
+.item.file[title$='.zip']::before,
+.item.file[title$='.rar']::before,
+.item.file[title$='.7z']::before,
+.item.file[title$='.tar']::before,
+.item.file[title$='.tgz']::before,
+.item.file[title$='.bz']::before,
+.item.file[title$='.gz']::before,
+.item.file[title$='.bzip2']::before,
+.item.file[title$='.xz']::before,
+.item.file[title$='.bz2']::before,
+.item.file[title$='.zipx']::before {
+    background: url(file_type_zip.svg);
+}
+
+/* 根据文件名称匹配图标 */
+.item.file[title='.angular-cli.json']::before,
+.item.file[title='angular-cli.json']::before,
+.item.file[title='angular.json']::before,
+.item.file[title='.angular.json']::before {
+    background: url(file_type_angular.svg);
+}
+
+.item.file[title='api-extractor.json']::before,
+.item.file[title='api-extractor-base.json']::before {
+    background: url(file_type_api_extractor.svg);
+}
+
+.item.file[title='.appsemblerc.yaml']::before,
+.item.file[title='app-definition.yaml']::before {
+    background: url(file_type_appsemble.svg);
+}
+
+.item.file[title='appveyor.yml']::before,
+.item.file[title='.appveyor.yml']::before {
+    background: url(file_type_appveyor.svg);
+}
+
+.item.file[title='astro.config.js']::before,
+.item.file[title='astro.config.cjs']::before,
+.item.file[title='astro.config.mjs']::before {
+    background: url(file_type_astroconfig.svg);
+}
+
+.item.file[title='aurelia.json']::before {
+    background: url(file_type_aurelia.svg);
+}
+
+.item.file[title='azure-pipelines.yml']::before,
+.item.file[title='.vsts-ci.yml']::before {
+    background: url(file_type_azurepipelines.svg);
+}
+
+.item.file[title='.babelrc']::before,
+.item.file[title='.babelignore']::before,
+.item.file[title='.babelrc.js']::before,
+.item.file[title='.babelrc.cjs']::before,
+.item.file[title='.babelrc.mjs']::before,
+.item.file[title='.babelrc.json']::before,
+.item.file[title='babel.config.js']::before,
+.item.file[title='babel.config.cjs']::before,
+.item.file[title='babel.config.mjs']::before,
+.item.file[title='babel.config.json']::before {
+    background: url(file_type_babel.svg);
+}
+
+.item.file[title='.bzrignore']::before {
+    background: url(file_type_bazaar.svg);
+}
+
+.item.file[title='BUILD.bazel']::before,
+.item.file[title='.bazelrc']::before,
+.item.file[title='bazel.rc']::before,
+.item.file[title='bazel.bazelrc']::before {
+    background: url(file_type_bazel.svg);
+}
+
+.item.file[title='bitbucket-pipelines.yml']::before {
+    background: url(file_type_bitbucketpipeline.svg);
+}
+
+.item.file[title='.bithoundrc']::before {
+    background: url(file_type_bithound.svg);
+}
+
+.item.file[title='.bowerrc']::before,
+.item.file[title='bower.json']::before {
+    background: url(file_type_bower.svg);
+}
+
+.item.file[title='.browserslistrc']::before,
+.item.file[title='browserslist']::before {
+    background: url(file_type_browserslist.svg);
+}
+
+.item.file[title='.buckconfig']::before {
+    background: url(file_type_buckbuild.svg);
+}
+
+.item.file[title='gemfile']::before,
+.item.file[title='gemfile.lock']::before {
+    background: url(file_type_bundler.svg);
+}
+
+.item.file[title='capacitor.config.json']::before {
+    background: url(file_type_capacitor.svg);
+}
+
+.item.file[title='cargo.toml']::before,
+.item.file[title='cargo.lock']::before {
+    background: url(file_type_cargo.svg);
+}
+
+.item.file[title='chefignore']::before,
+.item.file[title='berksfile']::before,
+.item.file[title='berksfile.lock']::before,
+.item.file[title='policyfile.rb']::before,
+.item.file[title='policyfile.lock.json']::before {
+    background: url(file_type_chef.svg);
+}
+
+.item.file[title='circle.yml']::before {
+    background: url(file_type_circleci.svg);
+}
+
+.item.file[title='.cfignore']::before {
+    background: url(file_type_cloudfoundry.svg);
+}
+
+.item.file[title='.codacy.yml']::before,
+.item.file[title='.codacy.yaml']::before {
+    background: url(file_type_codacy.svg);
+}
+
+.item.file[title='.codeclimate.yml']::before {
+    background: url(file_type_codeclimate.svg);
+}
+
+.item.file[title='codecov.yml']::before,
+.item.file[title='.codecov.yml']::before {
+    background: url(file_type_codecov.svg);
+}
+
+.item.file[title='config.codekit']::before,
+.item.file[title='config.codekit2']::before,
+.item.file[title='config.codekit3']::before,
+.item.file[title='.config.codekit']::before,
+.item.file[title='.config.codekit2']::before,
+.item.file[title='.config.codekit3']::before {
+    background: url(file_type_codekit.svg);
+}
+
+.item.file[title='codeowners']::before {
+    background: url(file_type_codeowners.svg);
+}
+
+.item.file[title='coffeelint.json']::before,
+.item.file[title='.coffeelintignore']::before {
+    background: url(file_type_coffeelint.svg);
+}
+
+.item.file[title='.czrc']::before,
+.item.file[title='.cz.json']::before {
+    background: url(file_type_commitizen.svg);
+}
+
+.item.file[title='commitlint.config.js']::before,
+.item.file[title='commitlint.config.cjs']::before,
+.item.file[title='commitlint.config.ts']::before,
+.item.file[title='.commitlintrc.json']::before,
+.item.file[title='.commitlintrc.yaml']::before,
+.item.file[title='.commitlintrc.yml']::before,
+.item.file[title='.commitlintrc.js']::before,
+.item.file[title='.commitlintrc.cjs']::before,
+.item.file[title='.commitlintrc.ts']::before {
+    background: url(file_type_commitlint.svg);
+}
+
+.item.file[title='composer.json']::before,
+.item.file[title='composer.lock']::before {
+    background: url(file_type_composer.svg);
+}
+
+.item.file[title='conanfile.txt']::before,
+.item.file[title='conanfile.py']::before {
+    background: url(file_type_conan.svg);
+}
+
+.item.file[title='.condarc']::before {
+    background: url(file_type_conda.svg);
+}
+
+.item.file[title='.tool-versions']::before {
+    background: url(file_type_config.svg);
+}
+
+.item.file[title='.coveralls.yml']::before {
+    background: url(file_type_coveralls.svg);
+}
+
+.item.file[title='crowdin.yml']::before {
+    background: url(file_type_crowdin.svg);
+}
+
+.item.file[title='.csscomb.json']::before {
+    background: url(file_type_csscomb.svg);
+}
+
+.item.file[title='.csslintrc']::before {
+    background: url(file_type_csslint.svg);
+}
+
+.item.file[title='.cvsignore']::before {
+    background: url(file_type_cvs.svg);
+}
+
+.item.file[title='cypress.json']::before,
+.item.file[title='cypress.env.json']::before {
+    background: url(file_type_cypress.svg);
+}
+
+.item.file[title='.boringignore']::before {
+    background: url(file_type_darcs.svg);
+}
+
+.item.file[title='.pubignore']::before {
+    background: url(file_type_dartlang_ignore.svg);
+}
+
+.item.file[title='dependabot.yml']::before {
+    background: url(file_type_dependabot.svg);
+}
+
+.item.file[title='dependencies.yml']::before {
+    background: url(file_type_dependencies.svg);
+}
+
+.item.file[title='devcontainer.json']::before,
+.item.file[title='.devcontainer.json']::before {
+    background: url(file_type_devcontainer.svg);
+}
+
+.item.file[title='.dockerignore']::before,
+.item.file[title='compose.yaml']::before,
+.item.file[title='compose.yml']::before,
+.item.file[title='docker-compose.yaml']::before,
+.item.file[title='docker-compose.yml']::before,
+.item.file[title='docker-compose.ci-build.yaml']::before,
+.item.file[title='docker-compose.ci-build.yml']::before,
+.item.file[title='docker-compose.override.yaml']::before,
+.item.file[title='docker-compose.override.yml']::before,
+.item.file[title='docker-compose.vs.debug.yaml']::before,
+.item.file[title='docker-compose.vs.debug.yml']::before,
+.item.file[title='docker-compose.vs.release.yaml']::before,
+.item.file[title='docker-compose.vs.release.yml']::before,
+.item.file[title='docker-cloud.yaml']::before,
+.item.file[title='docker-cloud.yml']::before {
+    background: url(file_type_docker.svg);
+}
+
+.item.file[title='docker-compose.test.yml']::before {
+    background: url(file_type_dockertest.svg);
+}
+
+.item.file[title='.doczrc']::before,
+.item.file[title='docz.js']::before,
+.item.file[title='docz.json']::before,
+.item.file[title='.docz.js']::before,
+.item.file[title='.docz.json']::before,
+.item.file[title='doczrc.js']::before,
+.item.file[title='doczrc.json']::before,
+.item.file[title='docz.config.js']::before,
+.item.file[title='docz.config.json']::before {
+    background: url(file_type_docz.svg);
+}
+
+.item.file[title='.dojorc']::before {
+    background: url(file_type_dojo.svg);
+}
+
+.item.file[title='.drone.yml']::before,
+.item.file[title='.drone.yml.sig']::before {
+    background: url(file_type_drone.svg);
+}
+
+.item.file[title='.dvc']::before {
+    background: url(file_type_dvc.svg);
+}
+
+.item.file[title='.editorconfig']::before {
+    background: url(file_type_editorconfig.svg);
+}
+
+.item.file[title='elm-package.json']::before {
+    background: url(file_type_elm.svg);
+}
+
+.item.file[title='.ember-cli']::before {
+    background: url(file_type_ember.svg);
+}
+
+.item.file[title='emakefile']::before,
+.item.file[title='.emakerfile']::before {
+    background: url(file_type_erlang.svg);
+}
+
+.item.file[title='.eslintrc']::before,
+.item.file[title='.eslintignore']::before,
+.item.file[title='.eslintcache']::before,
+.item.file[title='.eslintrc.js']::before,
+.item.file[title='.eslintrc.mjs']::before,
+.item.file[title='.eslintrc.cjs']::before,
+.item.file[title='.eslintrc.json']::before,
+.item.file[title='.eslintrc.yaml']::before,
+.item.file[title='.eslintrc.yml']::before {
+    background: url(file_type_eslint.svg);
+}
+
+.item.file[title='app.json']::before,
+.item.file[title='app.config.js']::before,
+.item.file[title='app.config.json']::before,
+.item.file[title='app.config.json5']::before {
+    background: url(file_type_expo.svg);
+}
+
+.item.file[title='.faunarc']::before {
+    background: url(file_type_fauna.svg);
+}
+
+.item.file[title='favicon.ico']::before {
+    background: url(file_type_favicon.svg);
+}
+
+.item.file[title='.firebaserc']::before {
+    background: url(file_type_firebase.svg);
+}
+
+.item.file[title='firebase.json']::before {
+    background: url(file_type_firebasehosting.svg);
+}
+
+.item.file[title='firestore.rules']::before,
+.item.file[title='firestore.indexes.json']::before {
+    background: url(file_type_firestore.svg);
+}
+
+.item.file[title='.flooignore']::before {
+    background: url(file_type_floobits.svg);
+}
+
+.item.file[title='.flowconfig']::before {
+    background: url(file_type_flow.svg);
+}
+
+.item.file[title='.flutter-plugins']::before,
+.item.file[title='.metadata']::before {
+    background: url(file_type_flutter.svg);
+}
+
+.item.file[title='pubspec.lock']::before,
+.item.file[title='pubspec.yaml']::before,
+.item.file[title='.packages']::before {
+    background: url(file_type_flutter_package.svg);
+}
+
+.item.file[title='.fossaignore']::before {
+    background: url(file_type_fossa.svg);
+}
+
+.item.file[title='ignore-glob']::before {
+    background: url(file_type_fossil.svg);
+}
+
+.item.file[title='fuse.js']::before {
+    background: url(file_type_fusebox.svg);
+}
+
+.item.file[title='gatsby-browser.js']::before,
+.item.file[title='gatsby-browser.ts']::before,
+.item.file[title='gatsby-browser.tsx']::before,
+.item.file[title='gatsby-ssr.js']::before,
+.item.file[title='gatsby-ssr.ts']::before,
+.item.file[title='gatsby-ssr.tsx']::before,
+.item.file[title='gatsby-config.js']::before,
+.item.file[title='gatsby-config.ts']::before,
+.item.file[title='gatsby-node.js']::before,
+.item.file[title='gatsby-node.ts']::before {
+    background: url(file_type_gatsby.svg);
+}
+
+.item.file[title='.gitattributes']::before,
+.item.file[title='.gitconfig']::before,
+.item.file[title='.gitignore']::before,
+.item.file[title='.gitmodules']::before,
+.item.file[title='.gitkeep']::before,
+.item.file[title='.mailmap']::before {
+    background: url(file_type_git.svg);
+}
+
+.item.file[title='.gitlab-ci.yml']::before {
+    background: url(file_type_gitlab.svg);
+}
+
+.item.file[title='.gitpod.yaml']::before,
+.item.file[title='.gitpod.yml']::before,
+.item.file[title='gitpod.yaml']::before,
+.item.file[title='gitpod.yml']::before {
+    background: url(file_type_gitpod.svg);
+}
+
+.item.file[title='glide.yml']::before {
+    background: url(file_type_glide.svg);
+}
+
+.item.file[title='.glitterrc']::before {
+    background: url(file_type_glitter.svg);
+}
+
+.item.file[title='go.sum']::before,
+.item.file[title='go.mod']::before {
+    background: url(file_type_go_package.svg);
+}
+
+.item.file[title='.gqlconfig']::before {
+    background: url(file_type_graphql.svg);
+}
+
+.item.file[title='.graphqlconfig']::before,
+.item.file[title='.graphqlconfig.yml']::before,
+.item.file[title='.graphqlconfig.yaml']::before {
+    background: url(file_type_graphql_config.svg);
+}
+
+.item.file[title='greenkeeper.json']::before {
+    background: url(file_type_greenkeeper.svg);
+}
+
+.item.file[title='gridsome.config.js']::before,
+.item.file[title='gridsome.config.ts']::before,
+.item.file[title='gridsome.server.js']::before,
+.item.file[title='gridsome.server.ts']::before,
+.item.file[title='gridsome.client.js']::before,
+.item.file[title='gridsome.client.ts']::before {
+    background: url(file_type_gridsome.svg);
+}
+
+.item.file[title='gruntfile.js']::before,
+.item.file[title='gruntfile.coffee']::before,
+.item.file[title='gruntfile.ts']::before,
+.item.file[title='gruntfile.babel.js']::before,
+.item.file[title='gruntfile.babel.coffee']::before,
+.item.file[title='gruntfile.babel.ts']::before {
+    background: url(file_type_grunt.svg);
+}
+
+.item.file[title='gulpfile.js']::before,
+.item.file[title='gulpfile.coffee']::before,
+.item.file[title='gulpfile.ts']::before,
+.item.file[title='gulpfile.mjs']::before,
+.item.file[title='gulpfile.esm.js']::before,
+.item.file[title='gulpfile.esm.coffee']::before,
+.item.file[title='gulpfile.esm.ts']::before,
+.item.file[title='gulpfile.esm.mjs']::before,
+.item.file[title='gulpfile.babel.js']::before,
+.item.file[title='gulpfile.babel.coffee']::before,
+.item.file[title='gulpfile.babel.ts']::before,
+.item.file[title='gulpfile.babel.mjs']::before {
+    background: url(file_type_gulp.svg);
+}
+
+.item.file[title='haxelib.json']::before {
+    background: url(file_type_haxe.svg);
+}
+
+.item.file[title='checkstyle.json']::before {
+    background: url(file_type_haxecheckstyle.svg);
+}
+
+.item.file[title='.p4ignore']::before {
+    background: url(file_type_helix.svg);
+}
+
+.item.file[title='chart.lock']::before,
+.item.file[title='chart.yaml']::before {
+    background: url(file_type_helm.svg);
+}
+
+.item.file[title='horusec-config.json']::before {
+    background: url(file_type_horusec.svg);
+}
+
+.item.file[title='.htmlhintrc']::before {
+    background: url(file_type_htmlhint.svg);
+}
+
+.item.file[title='.huskyrc']::before,
+.item.file[title='husky.config.js']::before,
+.item.file[title='.huskyrc.js']::before,
+.item.file[title='.huskyrc.json']::before,
+.item.file[title='.huskyrc.yaml']::before,
+.item.file[title='.huskyrc.yml']::before {
+    background: url(file_type_husky.svg);
+}
+
+.item.file[title='ionic.project']::before,
+.item.file[title='ionic.config.json']::before {
+    background: url(file_type_ionic.svg);
+}
+
+.item.file[title='jakefile']::before,
+.item.file[title='jakefile.js']::before {
+    background: url(file_type_jake.svg);
+}
+
+.item.file[title='jasmine.json']::before {
+    background: url(file_type_jasmine.svg);
+}
+
+.item.file[title='jest.config.json']::before,
+.item.file[title='jest.config.base.json']::before,
+.item.file[title='jest.config.common.json']::before,
+.item.file[title='jest.config.ts']::before,
+.item.file[title='jest.config.base.ts']::before,
+.item.file[title='jest.config.common.ts']::before,
+.item.file[title='jest.json']::before,
+.item.file[title='.jestrc']::before,
+.item.file[title='.jestrc.js']::before,
+.item.file[title='.jestrc.json']::before,
+.item.file[title='jest.config.js']::before,
+.item.file[title='jest.config.cjs']::before,
+.item.file[title='jest.config.mjs']::before,
+.item.file[title='jest.config.base.js']::before,
+.item.file[title='jest.config.base.cjs']::before,
+.item.file[title='jest.config.base.mjs']::before,
+.item.file[title='jest.config.common.js']::before,
+.item.file[title='jest.config.common.cjs']::before,
+.item.file[title='jest.config.common.mjs']::before,
+.item.file[title='jest.config.babel.js']::before,
+.item.file[title='jest.config.babel.cjs']::before,
+.item.file[title='jest.config.babel.mjs']::before {
+    background: url(file_type_jest.svg);
+}
+
+.item.file[title='.jpmignore']::before {
+    background: url(file_type_jpm.svg);
+}
+
+.item.file[title='.jsbeautifyrc']::before,
+.item.file[title='jsbeautifyrc']::before,
+.item.file[title='.jsbeautify']::before,
+.item.file[title='jsbeautify']::before {
+    background: url(file_type_jsbeautify.svg);
+}
+
+.item.file[title='jsconfig.json']::before {
+    background: url(file_type_jsconfig.svg);
+}
+
+.item.file[title='.jscpd.json']::before,
+.item.file[title='jscpd-report.xml']::before,
+.item.file[title='jscpd-report.json']::before,
+.item.file[title='jscpd-report.html']::before {
+    background: url(file_type_jscpd.svg);
+}
+
+.item.file[title='.jshintrc']::before,
+.item.file[title='.jshintignore']::before {
+    background: url(file_type_jshint.svg);
+}
+
+.item.file[title='karma.conf.js']::before,
+.item.file[title='karma.conf.coffee']::before,
+.item.file[title='karma.conf.ts']::before {
+    background: url(file_type_karma.svg);
+}
+
+.item.file[title='.kitchen.yml']::before,
+.item.file[title='kitchen.yml']::before {
+    background: url(file_type_kitchenci.svg);
+}
+
+.item.file[title='.kiteignore']::before {
+    background: url(file_type_kite.svg);
+}
+
+.item.file[title='layout.html']::before,
+.item.file[title='layout.htm']::before {
+    background: url(file_type_layout.svg);
+}
+
+.item.file[title='lerna.json']::before {
+    background: url(file_type_lerna.svg);
+}
+
+.item.file[title='license']::before,
+.item.file[title='licence']::before,
+.item.file[title='copying']::before,
+.item.file[title='copying.lesser']::before,
+.item.file[title='license-mit']::before,
+.item.file[title='license-apache']::before,
+.item.file[title='license.md']::before,
+.item.file[title='license.txt']::before,
+.item.file[title='licence.md']::before,
+.item.file[title='licence.txt']::before,
+.item.file[title='copying.md']::before,
+.item.file[title='copying.txt']::before,
+.item.file[title='copying.lesser.md']::before,
+.item.file[title='copying.lesser.txt']::before,
+.item.file[title='license-mit.md']::before,
+.item.file[title='license-mit.txt']::before,
+.item.file[title='license-apache.md']::before,
+.item.file[title='license-apache.txt']::before {
+    background: url(file_type_license.svg);
+}
+
+.item.file[title='.licrc']::before {
+    background: url(file_type_licensebat.svg);
+}
+
+.item.file[title='.lighthouserc.js']::before,
+.item.file[title='.lighthouserc.json']::before,
+.item.file[title='.lighthouserc.yaml']::before,
+.item.file[title='.lighthouserc.yml']::before {
+    background: url(file_type_lighthouse.svg);
+}
+
+.item.file[title='include.xml']::before {
+    background: url(file_type_lime.svg);
+}
+
+.item.file[title='.lintstagedrc']::before,
+.item.file[title='.lintstagedrc.json']::before,
+.item.file[title='.lintstagedrc.yaml']::before,
+.item.file[title='.lintstagedrc.yml']::before,
+.item.file[title='.lintstagedrc.mjs']::before,
+.item.file[title='.lintstagedrc.js']::before,
+.item.file[title='.lintstagedrc.cjs']::before,
+.item.file[title='lint-staged.config.mjs']::before,
+.item.file[title='lint-staged.config.js']::before,
+.item.file[title='lint-staged.config.cjs']::before {
+    background: url(file_type_lintstagedrc.svg);
+}
+
+.item.file[title='manifest']::before {
+    background: url(file_type_manifest.svg);
+}
+
+.item.file[title='manifest.bak']::before {
+    background: url(file_type_manifest_bak.svg);
+}
+
+.item.file[title='manifest.skip']::before {
+    background: url(file_type_manifest_skip.svg);
+}
+
+.item.file[title='.markdownlint.json']::before {
+    background: url(file_type_markdownlint.svg);
+}
+
+.item.file[title='.markdownlintignore']::before {
+    background: url(file_type_markdownlint_ignore.svg);
+}
+
+.item.file[title='maven.config']::before,
+.item.file[title='pom.xml']::before,
+.item.file[title='extensions.xml']::before,
+.item.file[title='settings.xml']::before {
+    background: url(file_type_maven.svg);
+}
+
+.item.file[title='.hgignore']::before {
+    background: url(file_type_mercurial.svg);
+}
+
+.item.file[title='mocha.opts']::before,
+.item.file[title='.mocharc.js']::before,
+.item.file[title='.mocharc.json']::before,
+.item.file[title='.mocharc.jsonc']::before,
+.item.file[title='.mocharc.yaml']::before,
+.item.file[title='.mocharc.yml']::before {
+    background: url(file_type_mocha.svg);
+}
+
+.item.file[title='modernizr']::before,
+.item.file[title='modernizr.js']::before,
+.item.file[title='modernizrrc.js']::before,
+.item.file[title='.modernizr.js']::before,
+.item.file[title='.modernizrrc.js']::before {
+    background: url(file_type_modernizr.svg);
+}
+
+.item.file[title='moleculer.config.js']::before,
+.item.file[title='moleculer.config.json']::before,
+.item.file[title='moleculer.config.ts']::before {
+    background: url(file_type_moleculer.svg);
+}
+
+.item.file[title='.mtn-ignore']::before {
+    background: url(file_type_monotone.svg);
+}
+
+.item.file[title='.nest-cli.json']::before,
+.item.file[title='nest-cli.json']::before,
+.item.file[title='nestconfig.json']::before,
+.item.file[title='.nestconfig.json']::before {
+    background: url(file_type_nestjs.svg);
+}
+
+.item.file[title='netlify.toml']::before {
+    background: url(file_type_netlify.svg);
+}
+
+.item.file[title='next.config.js']::before,
+.item.file[title='next.config.mjs']::before {
+    background: url(file_type_next.svg);
+}
+
+.item.file[title='nginx.conf']::before {
+    background: url(file_type_nginx.svg);
+}
+
+.item.file[title='build.ninja']::before {
+    background: url(file_type_ninja.svg);
+}
+
+.item.file[title='.node-version']::before,
+.item.file[title='.nvmrc']::before {
+    background: url(file_type_node.svg);
+}
+
+.item.file[title='nodemon.json']::before {
+    background: url(file_type_nodemon.svg);
+}
+
+.item.file[title='.npmignore']::before,
+.item.file[title='.npmrc']::before,
+.item.file[title='package.json']::before,
+.item.file[title='package-lock.json']::before,
+.item.file[title='npm-shrinkwrap.json']::before {
+    background: url(file_type_npm.svg);
+}
+
+.item.file[title='.nsrirc']::before,
+.item.file[title='.nsriignore']::before,
+.item.file[title='nsri.config.js']::before,
+.item.file[title='.nsrirc.js']::before,
+.item.file[title='.nsrirc.json']::before,
+.item.file[title='.nsrirc.yaml']::before,
+.item.file[title='.nsrirc.yml']::before {
+    background: url(file_type_nsri.svg);
+}
+
+.item.file[title='.integrity.json']::before {
+    background: url(file_type_nsri-integrity.svg);
+}
+
+.item.file[title='nuxt.config.js']::before,
+.item.file[title='nuxt.config.ts']::before {
+    background: url(file_type_nuxt.svg);
+}
+
+.item.file[title='.nycrc']::before,
+.item.file[title='.nycrc.json']::before {
+    background: url(file_type_nyc.svg);
+}
+
+.item.file[title='.merlin']::before {
+    background: url(file_type_ocaml.svg);
+}
+
+.item.file[title='paket.dependencies']::before,
+.item.file[title='paket.lock']::before,
+.item.file[title='paket.references']::before,
+.item.file[title='paket.template']::before,
+.item.file[title='paket.local']::before {
+    background: url(file_type_paket.svg);
+}
+
+.item.file[title='peeky.config.ts']::before,
+.item.file[title='peeky.config.js']::before,
+.item.file[title='peeky.config.mjs']::before {
+    background: url(file_type_peeky.svg);
+}
+
+.item.file[title='.php_cs']::before,
+.item.file[title='.php_cs.dist']::before {
+    background: url(file_type_phpcsfixer.svg);
+}
+
+.item.file[title='phpunit']::before,
+.item.file[title='phpunit.xml']::before,
+.item.file[title='phpunit.xml.dist']::before {
+    background: url(file_type_phpunit.svg);
+}
+
+.item.file[title='.phraseapp.yml']::before {
+    background: url(file_type_phraseapp.svg);
+}
+
+.item.file[title='pipfile']::before,
+.item.file[title='pipfile.lock']::before {
+    background: url(file_type_pip.svg);
+}
+
+.item.file[title='platformio.ini']::before {
+    background: url(file_type_platformio.svg);
+}
+
+.item.file[title='pnpmfile.js']::before,
+.item.file[title='pnpm-lock.yaml']::before,
+.item.file[title='pnpm-workspace.yaml']::before {
+    background: url(file_type_pnpm.svg);
+}
+
+.item.file[title='.postcssrc']::before,
+.item.file[title='.postcssrc.json']::before,
+.item.file[title='.postcssrc.yaml']::before,
+.item.file[title='.postcssrc.yml']::before,
+.item.file[title='.postcssrc.ts']::before,
+.item.file[title='.postcssrc.js']::before,
+.item.file[title='.postcssrc.cjs']::before,
+.item.file[title='postcss.config.ts']::before,
+.item.file[title='postcss.config.js']::before,
+.item.file[title='postcss.config.cjs']::before {
+    background: url(file_type_postcssconfig.svg);
+}
+
+.item.file[title='preact.config.js']::before {
+    background: url(file_type_preact.svg);
+}
+
+.item.file[title='.pre-commit-config.yaml']::before {
+    background: url(file_type_precommit.svg);
+}
+
+.item.file[title='.prettierrc']::before,
+.item.file[title='.prettierignore']::before,
+.item.file[title='prettier.config.js']::before,
+.item.file[title='prettier.config.cjs']::before,
+.item.file[title='prettier.config.ts']::before,
+.item.file[title='prettier.config.coffee']::before,
+.item.file[title='.prettierrc.js']::before,
+.item.file[title='.prettierrc.cjs']::before,
+.item.file[title='.prettierrc.json']::before,
+.item.file[title='.prettierrc.json5']::before,
+.item.file[title='.prettierrc.yml']::before,
+.item.file[title='.prettierrc.yaml']::before,
+.item.file[title='.prettierrc.toml']::before {
+    background: url(file_type_prettier.svg);
+}
+
+.item.file[title='procfile']::before {
+    background: url(file_type_procfile.svg);
+}
+
+.item.file[title='protractor.conf.js']::before,
+.item.file[title='protractor.conf.coffee']::before,
+.item.file[title='protractor.conf.ts']::before {
+    background: url(file_type_protractor.svg);
+}
+
+.item.file[title='.jade-lintrc']::before,
+.item.file[title='.pug-lintrc']::before,
+.item.file[title='.jade-lint.json']::before,
+.item.file[title='.pug-lintrc.js']::before,
+.item.file[title='.pug-lintrc.json']::before {
+    background: url(file_type_pug.svg);
+}
+
+.item.file[title='py.typed']::before {
+    background: url(file_type_pytyped.svg);
+}
+
+.item.file[title='.pyup']::before,
+.item.file[title='.pyup.yml']::before {
+    background: url(file_type_pyup.svg);
+}
+
+.item.file[title='qmldir']::before {
+    background: url(file_type_qmldir.svg);
+}
+
+.item.file[title='quasar.conf.js']::before {
+    background: url(file_type_quasar.svg);
+}
+
+.item.file[title='rakefile']::before {
+    background: url(file_type_rake.svg);
+}
+
+.item.file[title='razzle.config.js']::before {
+    background: url(file_type_razzle.svg);
+}
+
+.item.file[title='.rehyperc']::before,
+.item.file[title='.rehypeignore']::before,
+.item.file[title='.rehyperc.cjs']::before,
+.item.file[title='.rehyperc.js']::before,
+.item.file[title='.rehyperc.json']::before,
+.item.file[title='.rehyperc.mjs']::before,
+.item.file[title='.rehyperc.yml']::before,
+.item.file[title='.rehyperc.yaml']::before {
+    background: url(file_type_rehype.svg);
+}
+
+.item.file[title='.remarkrc']::before,
+.item.file[title='.remarkignore']::before,
+.item.file[title='.remarkrc.cjs']::before,
+.item.file[title='.remarkrc.js']::before,
+.item.file[title='.remarkrc.json']::before,
+.item.file[title='.remarkrc.mjs']::before,
+.item.file[title='.remarkrc.yml']::before,
+.item.file[title='.remarkrc.yaml']::before {
+    background: url(file_type_remark.svg);
+}
+
+.item.file[title='.renovaterc']::before,
+.item.file[title='renovate.json']::before,
+.item.file[title='.renovaterc.json']::before {
+    background: url(file_type_renovate.svg);
+}
+
+.item.file[title='.retextrc']::before,
+.item.file[title='.retextignore']::before,
+.item.file[title='.retextrc.cjs']::before,
+.item.file[title='.retextrc.js']::before,
+.item.file[title='.retextrc.json']::before,
+.item.file[title='.retextrc.mjs']::before,
+.item.file[title='.retextrc.yml']::before,
+.item.file[title='.retextrc.yaml']::before {
+    background: url(file_type_retext.svg);
+}
+
+.item.file[title='robots.txt']::before {
+    background: url(file_type_robots.svg);
+}
+
+.item.file[title='rollup.config.js']::before,
+.item.file[title='rollup.config.cjs']::before,
+.item.file[title='rollup.config.mjs']::before,
+.item.file[title='rollup.config.coffee']::before,
+.item.file[title='rollup.config.ts']::before,
+.item.file[title='rollup.config.common.js']::before,
+.item.file[title='rollup.config.common.cjs']::before,
+.item.file[title='rollup.config.common.mjs']::before,
+.item.file[title='rollup.config.common.coffee']::before,
+.item.file[title='rollup.config.common.ts']::before,
+.item.file[title='rollup.config.dev.js']::before,
+.item.file[title='rollup.config.dev.cjs']::before,
+.item.file[title='rollup.config.dev.mjs']::before,
+.item.file[title='rollup.config.dev.coffee']::before,
+.item.file[title='rollup.config.dev.ts']::before,
+.item.file[title='rollup.config.prod.js']::before,
+.item.file[title='rollup.config.prod.cjs']::before,
+.item.file[title='rollup.config.prod.mjs']::before,
+.item.file[title='rollup.config.prod.coffee']::before,
+.item.file[title='rollup.config.prod.ts']::before {
+    background: url(file_type_rollup.svg);
+}
+
+.item.file[title='.rspec']::before {
+    background: url(file_type_rspec.svg);
+}
+
+.item.file[title='.rubocop.yml']::before,
+.item.file[title='.rubocop_todo.yml']::before {
+    background: url(file_type_rubocop.svg);
+}
+
+.item.file[title='rust-toolchain']::before {
+    background: url(file_type_rust_toolchain.svg);
+}
+
+.item.file[title='.sailsrc']::before {
+    background: url(file_type_sails.svg);
+}
+
+.item.file[title='.sentryclirc']::before {
+    background: url(file_type_sentry.svg);
+}
+
+.item.file[title='.sequelizerc']::before,
+.item.file[title='.sequelizerc.js']::before,
+.item.file[title='.sequelizerc.json']::before {
+    background: url(file_type_sequelize.svg);
+}
+
+.item.file[title='serverless.yml']::before,
+.item.file[title='serverless.json']::before,
+.item.file[title='serverless.js']::before,
+.item.file[title='serverless.ts']::before {
+    background: url(file_type_serverless.svg);
+}
+
+.item.file[title='snapcraft.yaml']::before {
+    background: url(file_type_snapcraft.svg);
+}
+
+.item.file[title='.snyk']::before {
+    background: url(file_type_snyk.svg);
+}
+
+.item.file[title='.solidarity']::before,
+.item.file[title='.solidarity.json']::before {
+    background: url(file_type_solidarity.svg);
+}
+
+.item.file[title='stryker.conf.mjs']::before,
+.item.file[title='stryker.conf.cjs']::before,
+.item.file[title='stryker.conf.js']::before,
+.item.file[title='stryker.conf.conf']::before,
+.item.file[title='stryker.conf.json']::before,
+.item.file[title='stryker-config.mjs']::before,
+.item.file[title='stryker-config.cjs']::before,
+.item.file[title='stryker-config.js']::before,
+.item.file[title='stryker-config.conf']::before,
+.item.file[title='stryker-config.json']::before,
+.item.file[title='stryker4s.mjs']::before,
+.item.file[title='stryker4s.cjs']::before,
+.item.file[title='stryker4s.js']::before,
+.item.file[title='stryker4s.conf']::before,
+.item.file[title='stryker4s.json']::before {
+    background: url(file_type_stryker.svg);
+}
+
+.item.file[title='.stylelintrc']::before,
+.item.file[title='.stylelintignore']::before,
+.item.file[title='.stylelintcache']::before,
+.item.file[title='stylelint.config.js']::before,
+.item.file[title='stylelint.config.json']::before,
+.item.file[title='stylelint.config.yaml']::before,
+.item.file[title='stylelint.config.yml']::before,
+.item.file[title='stylelint.config.ts']::before,
+.item.file[title='stylelint.config.cjs']::before,
+.item.file[title='.stylelintrc.js']::before,
+.item.file[title='.stylelintrc.json']::before,
+.item.file[title='.stylelintrc.yaml']::before,
+.item.file[title='.stylelintrc.yml']::before,
+.item.file[title='.stylelintrc.ts']::before,
+.item.file[title='.stylelintrc.cjs']::before {
+    background: url(file_type_stylelint.svg);
+}
+
+.item.file[title='.stylish-haskell.yaml']::before {
+    background: url(file_type_stylish_haskell.svg);
+}
+
+.item.file[title='.svnignore']::before {
+    background: url(file_type_subversion.svg);
+}
+
+.item.file[title='package.pins']::before {
+    background: url(file_type_swift.svg);
+}
+
+.item.file[title='symfony.lock']::before {
+    background: url(file_type_symfony.svg);
+}
+
+.item.file[title='tailwind.js']::before,
+.item.file[title='tailwind.cjs']::before,
+.item.file[title='tailwind.coffee']::before,
+.item.file[title='tailwind.ts']::before,
+.item.file[title='tailwind.json']::before,
+.item.file[title='tailwind.config.js']::before,
+.item.file[title='tailwind.config.cjs']::before,
+.item.file[title='tailwind.config.coffee']::before,
+.item.file[title='tailwind.config.ts']::before,
+.item.file[title='tailwind.config.json']::before,
+.item.file[title='.tailwind.js']::before,
+.item.file[title='.tailwind.cjs']::before,
+.item.file[title='.tailwind.coffee']::before,
+.item.file[title='.tailwind.ts']::before,
+.item.file[title='.tailwind.json']::before,
+.item.file[title='.tailwindrc.js']::before,
+.item.file[title='.tailwindrc.cjs']::before,
+.item.file[title='.tailwindrc.coffee']::before,
+.item.file[title='.tailwindrc.ts']::before,
+.item.file[title='.tailwindrc.json']::before {
+    background: url(file_type_tailwind.svg);
+}
+
+.item.file[title='.testcaferc.json']::before {
+    background: url(file_type_testcafe.svg);
+}
+
+.item.file[title='.tfignore']::before {
+    background: url(file_type_tfs.svg);
+}
+
+.item.file[title='tox.ini']::before {
+    background: url(file_type_tox.svg);
+}
+
+.item.file[title='.travis.yml']::before {
+    background: url(file_type_travis.svg);
+}
+
+.item.file[title='trunk.yaml']::before {
+    background: url(file_type_trunk.svg);
+}
+
+.item.file[title='tsconfig.json']::before,
+.item.file[title='tsconfig.app.json']::before,
+.item.file[title='tsconfig.base.json']::before,
+.item.file[title='tsconfig.common.json']::before,
+.item.file[title='tsconfig.dev.json']::before,
+.item.file[title='tsconfig.development.json']::before,
+.item.file[title='tsconfig.e2e.json']::before,
+.item.file[title='tsconfig.prod.json']::before,
+.item.file[title='tsconfig.production.json']::before,
+.item.file[title='tsconfig.server.json']::before,
+.item.file[title='tsconfig.spec.json']::before,
+.item.file[title='tsconfig.staging.json']::before,
+.item.file[title='tsconfig.test.json']::before,
+.item.file[title='tsconfig.lib.json']::before,
+.item.file[title='tsconfig.lib.prod.json']::before {
+    background: url(file_type_tsconfig.svg);
+}
+
+.item.file[title='tslint.json']::before,
+.item.file[title='tslint.yaml']::before,
+.item.file[title='tslint.yml']::before {
+    background: url(file_type_tslint.svg);
+}
+
+.item.file[title='turbo.json']::before {
+    background: url(file_type_turbo.svg);
+}
+
+.item.file[title='typedoc.js']::before,
+.item.file[title='typedoc.json']::before {
+    background: url(file_type_typedoc.svg);
+}
+
+.item.file[title='.unibeautifyrc']::before,
+.item.file[title='unibeautify.config.js']::before,
+.item.file[title='.unibeautifyrc.js']::before,
+.item.file[title='.unibeautifyrc.json']::before,
+.item.file[title='.unibeautifyrc.yaml']::before,
+.item.file[title='.unibeautifyrc.yml']::before {
+    background: url(file_type_unibeautify.svg);
+}
+
+.item.file[title='unlicense']::before,
+.item.file[title='unlicence']::before,
+.item.file[title='unlicense.md']::before,
+.item.file[title='unlicense.txt']::before,
+.item.file[title='unlicence.md']::before,
+.item.file[title='unlicence.txt']::before {
+    background: url(file_type_unlicense.svg);
+}
+
+.item.file[title='vagrantfile']::before {
+    background: url(file_type_vagrant.svg);
+}
+
+.item.file[title='vapor.yml']::before {
+    background: url(file_type_vapor.svg);
+}
+
+.item.file[title='.vimrc']::before,
+.item.file[title='.gvimrc']::before {
+    background: url(file_type_vim.svg);
+}
+
+.item.file[title='vite.config.js']::before,
+.item.file[title='vite.config.ts']::before {
+    background: url(file_type_vite.svg);
+}
+
+.item.file[title='vitest.config.ts']::before,
+.item.file[title='vitest.config.js']::before,
+.item.file[title='vitest.config.mjs']::before {
+    background: url(file_type_vitest.svg);
+}
+
+.item.file[title='.vscodeignore']::before,
+.item.file[title='launch.json']::before,
+.item.file[title='tasks.json']::before,
+.item.file[title='vscodeignore.json']::before {
+    background: url(file_type_vscode.svg);
+}
+
+.item.file[title='.vuerc']::before,
+.item.file[title='vue.config.js']::before,
+.item.file[title='vue.config.cjs']::before,
+.item.file[title='vue.config.mjs']::before {
+    background: url(file_type_vueconfig.svg);
+}
+
+.item.file[title='wallaby.json']::before,
+.item.file[title='wallaby.js']::before,
+.item.file[title='wallaby.ts']::before,
+.item.file[title='wallaby.coffee']::before,
+.item.file[title='wallaby.conf.json']::before,
+.item.file[title='wallaby.conf.js']::before,
+.item.file[title='wallaby.conf.ts']::before,
+.item.file[title='wallaby.conf.coffee']::before,
+.item.file[title='.wallaby.json']::before,
+.item.file[title='.wallaby.js']::before,
+.item.file[title='.wallaby.ts']::before,
+.item.file[title='.wallaby.coffee']::before,
+.item.file[title='.wallaby.conf.json']::before,
+.item.file[title='.wallaby.conf.js']::before,
+.item.file[title='.wallaby.conf.ts']::before,
+.item.file[title='.wallaby.conf.coffee']::before {
+    background: url(file_type_wallaby.svg);
+}
+
+.item.file[title='.watchmanconfig']::before {
+    background: url(file_type_watchmanconfig.svg);
+}
+
+.item.file[title='webpack.base.conf.js']::before,
+.item.file[title='webpack.base.conf.coffee']::before,
+.item.file[title='webpack.base.conf.ts']::before,
+.item.file[title='webpack.common.js']::before,
+.item.file[title='webpack.common.coffee']::before,
+.item.file[title='webpack.common.ts']::before,
+.item.file[title='webpack.config.js']::before,
+.item.file[title='webpack.config.coffee']::before,
+.item.file[title='webpack.config.ts']::before,
+.item.file[title='webpack.config.base.js']::before,
+.item.file[title='webpack.config.base.coffee']::before,
+.item.file[title='webpack.config.base.ts']::before,
+.item.file[title='webpack.config.common.js']::before,
+.item.file[title='webpack.config.common.coffee']::before,
+.item.file[title='webpack.config.common.ts']::before,
+.item.file[title='webpack.config.dev.js']::before,
+.item.file[title='webpack.config.dev.coffee']::before,
+.item.file[title='webpack.config.dev.ts']::before,
+.item.file[title='webpack.config.development.js']::before,
+.item.file[title='webpack.config.development.coffee']::before,
+.item.file[title='webpack.config.development.ts']::before,
+.item.file[title='webpack.config.staging.js']::before,
+.item.file[title='webpack.config.staging.coffee']::before,
+.item.file[title='webpack.config.staging.ts']::before,
+.item.file[title='webpack.config.test.js']::before,
+.item.file[title='webpack.config.test.coffee']::before,
+.item.file[title='webpack.config.test.ts']::before,
+.item.file[title='webpack.config.prod.js']::before,
+.item.file[title='webpack.config.prod.coffee']::before,
+.item.file[title='webpack.config.prod.ts']::before,
+.item.file[title='webpack.config.production.js']::before,
+.item.file[title='webpack.config.production.coffee']::before,
+.item.file[title='webpack.config.production.ts']::before,
+.item.file[title='webpack.config.babel.js']::before,
+.item.file[title='webpack.config.babel.coffee']::before,
+.item.file[title='webpack.config.babel.ts']::before,
+.item.file[title='webpack.config.base.babel.js']::before,
+.item.file[title='webpack.config.base.babel.coffee']::before,
+.item.file[title='webpack.config.base.babel.ts']::before,
+.item.file[title='webpack.config.common.babel.js']::before,
+.item.file[title='webpack.config.common.babel.coffee']::before,
+.item.file[title='webpack.config.common.babel.ts']::before,
+.item.file[title='webpack.config.dev.babel.js']::before,
+.item.file[title='webpack.config.dev.babel.coffee']::before,
+.item.file[title='webpack.config.dev.babel.ts']::before,
+.item.file[title='webpack.config.development.babel.js']::before,
+.item.file[title='webpack.config.development.babel.coffee']::before,
+.item.file[title='webpack.config.development.babel.ts']::before,
+.item.file[title='webpack.config.staging.babel.js']::before,
+.item.file[title='webpack.config.staging.babel.coffee']::before,
+.item.file[title='webpack.config.staging.babel.ts']::before,
+.item.file[title='webpack.config.test.babel.js']::before,
+.item.file[title='webpack.config.test.babel.coffee']::before,
+.item.file[title='webpack.config.test.babel.ts']::before,
+.item.file[title='webpack.config.prod.babel.js']::before,
+.item.file[title='webpack.config.prod.babel.coffee']::before,
+.item.file[title='webpack.config.prod.babel.ts']::before,
+.item.file[title='webpack.config.production.babel.js']::before,
+.item.file[title='webpack.config.production.babel.coffee']::before,
+.item.file[title='webpack.config.production.babel.ts']::before,
+.item.file[title='webpack.dev.js']::before,
+.item.file[title='webpack.dev.coffee']::before,
+.item.file[title='webpack.dev.ts']::before,
+.item.file[title='webpack.dev.conf.js']::before,
+.item.file[title='webpack.dev.conf.coffee']::before,
+.item.file[title='webpack.dev.conf.ts']::before,
+.item.file[title='webpack.prod.js']::before,
+.item.file[title='webpack.prod.coffee']::before,
+.item.file[title='webpack.prod.ts']::before,
+.item.file[title='webpack.prod.conf.js']::before,
+.item.file[title='webpack.prod.conf.coffee']::before,
+.item.file[title='webpack.prod.conf.ts']::before,
+.item.file[title='webpack.main.config.js']::before,
+.item.file[title='webpack.main.config.coffee']::before,
+.item.file[title='webpack.main.config.ts']::before,
+.item.file[title='webpack.mix.js']::before,
+.item.file[title='webpack.mix.coffee']::before,
+.item.file[title='webpack.mix.ts']::before,
+.item.file[title='webpack.plugins.js']::before,
+.item.file[title='webpack.plugins.coffee']::before,
+.item.file[title='webpack.plugins.ts']::before,
+.item.file[title='webpack.renderer.config.js']::before,
+.item.file[title='webpack.renderer.config.coffee']::before,
+.item.file[title='webpack.renderer.config.ts']::before,
+.item.file[title='webpack.rules.js']::before,
+.item.file[title='webpack.rules.coffee']::before,
+.item.file[title='webpack.rules.ts']::before,
+.item.file[title='webpack.test.conf.js']::before,
+.item.file[title='webpack.test.conf.coffee']::before,
+.item.file[title='webpack.test.conf.ts']::before {
+    background: url(file_type_webpack.svg);
+}
+
+.item.file[title='wercker.yml']::before {
+    background: url(file_type_wercker.svg);
+}
+
+.item.file[title='windi.config.ts']::before,
+.item.file[title='windi.config.js']::before {
+    background: url(file_type_windi.svg);
+}
+
+.item.file[title='wpml-config.xml']::before {
+    background: url(file_type_wpml.svg);
+}
+
+.item.file[title='.yamllint']::before {
+    background: url(file_type_yamllint.svg);
+}
+
+.item.file[title='.yaspellerrc']::before,
+.item.file[title='.yaspeller.json']::before {
+    background: url(file_type_yandex.svg);
+}
+
+.item.file[title='yarn.lock']::before,
+.item.file[title='.yarnrc']::before,
+.item.file[title='.yarnrc.yml']::before,
+.item.file[title='.yarnclean']::before,
+.item.file[title='.yarn-integrity']::before,
+.item.file[title='.yarn-metadata.json']::before,
+.item.file[title='.yarnignore']::before {
+    background: url(file_type_yarn.svg);
+}
+
+.item.file[title='.yo-rc.json']::before {
+    background: url(file_type_yeoman.svg);
+}
+
+.item.file[title='now.json']::before,
+.item.file[title='.nowignore']::before,
+.item.file[title='vercel.json']::before,
+.item.file[title='.vercelignore']::before {
+    background: url(file_type_zeit.svg);
+}
+
+/* 默认文件夹图标 */
+.item.folder::before {
+    background: url(default_folder.svg);
+}
+
+.item.folder[title='android']::before {
+    background: url(folder_type_android.svg);
+}
+
+.item.folder[title='api']::before,
+.item.folder[title='.api']::before,
+.item.folder[title='apis']::before,
+.item.folder[title='.apis']::before {
+    background: url(folder_type_api.svg);
+}
+
+.item.folder[title='app']::before,
+.item.folder[title='.app']::before {
+    background: url(folder_type_app.svg);
+}
+
+.item.folder[title='arangodb']::before,
+.item.folder[title='arango']::before {
+    background: url(folder_type_arangodb.svg);
+}
+
+.item.folder[title='assets']::before,
+.item.folder[title='.assets']::before {
+    background: url(folder_type_asset.svg);
+}
+
+.item.folder[title='audio']::before,
+.item.folder[title='.audio']::before,
+.item.folder[title='audios']::before,
+.item.folder[title='.audios']::before,
+.item.folder[title='sound']::before,
+.item.folder[title='.sound']::before,
+.item.folder[title='sounds']::before,
+.item.folder[title='.sounds']::before {
+    background: url(folder_type_audio.svg);
+}
+
+.item.folder[title='aurelia_project']::before {
+    background: url(folder_type_aurelia.svg);
+}
+
+.item.folder[title='aws']::before,
+.item.folder[title='.aws']::before {
+    background: url(folder_type_aws.svg);
+}
+
+.item.folder[title='azure']::before,
+.item.folder[title='.azure']::before {
+    background: url(folder_type_azure.svg);
+}
+
+.item.folder[title='azure-pipelines']::before,
+.item.folder[title='.azure-pipelines']::before {
+    background: url(folder_type_azurepipelines.svg);
+}
+
+.item.folder[title='bin']::before,
+.item.folder[title='.bin']::before {
+    background: url(folder_type_binary.svg);
+}
+
+.item.folder[title='blocs']::before,
+.item.folder[title='bloc']::before {
+    background: url(folder_type_bloc.svg);
+}
+
+.item.folder[title='blueprint']::before,
+.item.folder[title='.blueprint']::before,
+.item.folder[title='blueprints']::before,
+.item.folder[title='.blueprints']::before {
+    background: url(folder_type_blueprint.svg);
+}
+
+.item.folder[title='bower_components']::before {
+    background: url(folder_type_bower.svg);
+}
+
+.item.folder[title='.buildkite']::before {
+    background: url(folder_type_buildkite.svg);
+}
+
+.item.folder[title='cake']::before,
+.item.folder[title='.cake']::before {
+    background: url(folder_type_cake.svg);
+}
+
+.item.folder[title='certificates']::before,
+.item.folder[title='.certificates']::before,
+.item.folder[title='certs']::before,
+.item.folder[title='certs.']::before {
+    background: url(folder_type_certificate.svg);
+}
+
+.item.folder[title='chef']::before,
+.item.folder[title='.chef']::before {
+    background: url(folder_type_chef.svg);
+}
+
+.item.folder[title='.circleci']::before {
+    background: url(folder_type_circleci.svg);
+}
+
+.item.folder[title='cli']::before,
+.item.folder[title='cmd']::before,
+.item.folder[title='command']::before,
+.item.folder[title='commands']::before,
+.item.folder[title='commandline']::before,
+.item.folder[title='console']::before {
+    background: url(folder_type_cli.svg);
+}
+
+.item.folder[title='client']::before,
+.item.folder[title='clients']::before {
+    background: url(folder_type_client.svg);
+}
+
+.item.folder[title='.cmake']::before,
+.item.folder[title='cmake']::before {
+    background: url(folder_type_cmake.svg);
+}
+
+.item.folder[title='component']::before,
+.item.folder[title='components']::before,
+.item.folder[title='.components']::before,
+.item.folder[title='ui']::before,
+.item.folder[title='widgets']::before {
+    background: url(folder_type_component.svg);
+}
+
+.item.folder[title='composer']::before,
+.item.folder[title='.composer']::before {
+    background: url(folder_type_composer.svg);
+}
+
+.item.folder[title='conf']::before,
+.item.folder[title='.conf']::before,
+.item.folder[title='config']::before,
+.item.folder[title='.config']::before,
+.item.folder[title='configs']::before,
+.item.folder[title='.configs']::before,
+.item.folder[title='configuration']::before,
+.item.folder[title='.configuration']::before,
+.item.folder[title='configurations']::before,
+.item.folder[title='.configurations']::before,
+.item.folder[title='setting']::before,
+.item.folder[title='.setting']::before,
+.item.folder[title='settings']::before,
+.item.folder[title='.settings']::before,
+.item.folder[title='ini']::before,
+.item.folder[title='.ini']::before,
+.item.folder[title='initializers']::before,
+.item.folder[title='.initializers']::before {
+    background: url(folder_type_config.svg);
+}
+
+.item.folder[title='controller']::before,
+.item.folder[title='controllers']::before,
+.item.folder[title='.controllers']::before,
+.item.folder[title='handlers']::before,
+.item.folder[title='.handlers']::before {
+    background: url(folder_type_controller.svg);
+}
+
+.item.folder[title='coverage']::before {
+    background: url(folder_type_coverage.svg);
+}
+
+.item.folder[title='css']::before,
+.item.folder[title='_css']::before {
+    background: url(folder_type_css.svg);
+}
+
+.item.folder[title='cubits']::before,
+.item.folder[title='cubit']::before {
+    background: url(folder_type_cubit.svg);
+}
+
+.item.folder[title='cypress']::before {
+    background: url(folder_type_cypress.svg);
+}
+
+.item.folder[title='.dapr']::before,
+.item.folder[title='dapr']::before {
+    background: url(folder_type_dapr.svg);
+}
+
+.item.folder[title='db']::before,
+.item.folder[title='database']::before,
+.item.folder[title='sql']::before,
+.item.folder[title='data']::before,
+.item.folder[title='repo']::before,
+.item.folder[title='repository']::before,
+.item.folder[title='repositories']::before {
+    background: url(folder_type_db.svg);
+}
+
+.item.folder[title='debian']::before,
+.item.folder[title='deb']::before {
+    background: url(folder_type_debian.svg);
+}
+
+.item.folder[title='.dependabot']::before {
+    background: url(folder_type_dependabot.svg);
+}
+
+.item.folder[title='.devcontainer']::before {
+    background: url(folder_type_devcontainer.svg);
+}
+
+.item.folder[title='dist']::before,
+.item.folder[title='.dist']::before,
+.item.folder[title='dists']::before,
+.item.folder[title='out']::before,
+.item.folder[title='outs']::before,
+.item.folder[title='export']::before,
+.item.folder[title='exports']::before,
+.item.folder[title='build']::before,
+.item.folder[title='.build']::before,
+.item.folder[title='builds']::before,
+.item.folder[title='release']::before,
+.item.folder[title='releases']::before,
+.item.folder[title='target']::before,
+.item.folder[title='targets']::before {
+    background: url(folder_type_dist.svg);
+}
+
+.item.folder[title='docker']::before,
+.item.folder[title='.docker']::before {
+    background: url(folder_type_docker.svg);
+}
+
+.item.folder[title='docs']::before,
+.item.folder[title='doc']::before {
+    background: url(folder_type_docs.svg);
+}
+
+.item.folder[title='e2e']::before {
+    background: url(folder_type_e2e.svg);
+}
+
+.item.folder[title='.elasticbeanstalk']::before,
+.item.folder[title='.ebextensions']::before {
+    background: url(folder_type_elasticbeanstalk.svg);
+}
+
+.item.folder[title='electron']::before {
+    background: url(folder_type_electron.svg);
+}
+
+.item.folder[title='.expo']::before,
+.item.folder[title='.expo-shared']::before {
+    background: url(folder_type_expo.svg);
+}
+
+.item.folder[title='favicon']::before,
+.item.folder[title='favicons']::before {
+    background: url(folder_type_favicon.svg);
+}
+
+.item.folder[title='flow']::before,
+.item.folder[title='flow-typed']::before {
+    background: url(folder_type_flow.svg);
+}
+
+.item.folder[title='fonts']::before,
+.item.folder[title='font']::before,
+.item.folder[title='fnt']::before {
+    background: url(folder_type_fonts.svg);
+}
+
+.item.folder[title='gcp']::before,
+.item.folder[title='.gcp']::before {
+    background: url(folder_type_gcp.svg);
+}
+
+.item.folder[title='.git']::before,
+.item.folder[title='submodules']::before,
+.item.folder[title='.submodules']::before {
+    background: url(folder_type_git.svg);
+}
+
+.item.folder[title='.github']::before {
+    background: url(folder_type_github.svg);
+}
+
+.item.folder[title='.gitlab']::before {
+    background: url(folder_type_gitlab.svg);
+}
+
+.item.folder[title='gradle']::before,
+.item.folder[title='.gradle']::before {
+    background: url(folder_type_gradle.svg);
+}
+
+.item.folder[title='graphql']::before {
+    background: url(folder_type_graphql.svg);
+}
+
+.item.folder[title='grunt']::before {
+    background: url(folder_type_grunt.svg);
+}
+
+.item.folder[title='gulp']::before,
+.item.folder[title='gulpfile.js']::before,
+.item.folder[title='gulpfile.coffee']::before,
+.item.folder[title='gulpfile.ts']::before,
+.item.folder[title='gulpfile.babel.js']::before,
+.item.folder[title='gulpfile.babel.coffee']::before,
+.item.folder[title='gulpfile.babel.ts']::before {
+    background: url(folder_type_gulp.svg);
+}
+
+.item.folder[title='.haxelib']::before,
+.item.folder[title='haxe_libraries']::before {
+    background: url(folder_type_haxelib.svg);
+}
+
+.item.folder[title='helper']::before,
+.item.folder[title='.helper']::before,
+.item.folder[title='helpers']::before,
+.item.folder[title='.helpers']::before {
+    background: url(folder_type_helper.svg);
+}
+
+.item.folder[title='hook']::before,
+.item.folder[title='.hook']::before,
+.item.folder[title='hooks']::before,
+.item.folder[title='.hooks']::before {
+    background: url(folder_type_hook.svg);
+}
+
+.item.folder[title='.husky']::before {
+    background: url(folder_type_husky.svg);
+}
+
+.item.folder[title='.idea']::before {
+    background: url(folder_type_idea.svg);
+}
+
+.item.folder[title='images']::before,
+.item.folder[title='image']::before,
+.item.folder[title='img']::before,
+.item.folder[title='icons']::before,
+.item.folder[title='icon']::before,
+.item.folder[title='ico']::before,
+.item.folder[title='screenshot']::before,
+.item.folder[title='screenshots']::before,
+.item.folder[title='svg']::before {
+    background: url(folder_type_images.svg);
+}
+
+.item.folder[title='include']::before,
+.item.folder[title='includes']::before,
+.item.folder[title='incl']::before,
+.item.folder[title='inc']::before,
+.item.folder[title='.include']::before,
+.item.folder[title='.includes']::before,
+.item.folder[title='.incl']::before,
+.item.folder[title='.inc']::before,
+.item.folder[title='_include']::before,
+.item.folder[title='_includes']::before,
+.item.folder[title='_incl']::before,
+.item.folder[title='_inc']::before {
+    background: url(folder_type_include.svg);
+}
+
+.item.folder[title='interface']::before,
+.item.folder[title='interfaces']::before {
+    background: url(folder_type_interfaces.svg);
+}
+
+.item.folder[title='ios']::before {
+    background: url(folder_type_ios.svg);
+}
+
+.item.folder[title='js']::before {
+    background: url(folder_type_js.svg);
+}
+
+.item.folder[title='json']::before {
+    background: url(folder_type_json.svg);
+}
+
+.item.folder[title='kubernetes']::before,
+.item.folder[title='k8s']::before,
+.item.folder[title='kube']::before,
+.item.folder[title='kuber']::before,
+.item.folder[title='.kubernetes']::before,
+.item.folder[title='.k8s']::before,
+.item.folder[title='.kube']::before,
+.item.folder[title='.kuber']::before {
+    background: url(folder_type_kubernetes.svg);
+}
+
+.item.folder[title='less']::before,
+.item.folder[title='_less']::before {
+    background: url(folder_type_less.svg);
+}
+
+.item.folder[title='lib']::before,
+.item.folder[title='libs']::before,
+.item.folder[title='.lib']::before,
+.item.folder[title='.libs']::before,
+.item.folder[title='library']::before,
+.item.folder[title='libraries']::before {
+    background: url(folder_type_library.svg);
+}
+
+.item.folder[title='linux']::before {
+    background: url(folder_type_linux.svg);
+}
+
+.item.folder[title='lang']::before,
+.item.folder[title='language']::before,
+.item.folder[title='languages']::before,
+.item.folder[title='locale']::before,
+.item.folder[title='locales']::before,
+.item.folder[title='_locale']::before,
+.item.folder[title='_locales']::before,
+.item.folder[title='internationalization']::before,
+.item.folder[title='globalization']::before,
+.item.folder[title='localization']::before,
+.item.folder[title='i18n']::before,
+.item.folder[title='g11n']::before,
+.item.folder[title='l10n']::before {
+    background: url(folder_type_locale.svg);
+}
+
+.item.folder[title='log']::before,
+.item.folder[title='logs']::before {
+    background: url(folder_type_log.svg);
+}
+
+.item.folder[title='macos']::before,
+.item.folder[title='darwin']::before {
+    background: url(folder_type_macos.svg);
+}
+
+.item.folder[title='mariadb']::before,
+.item.folder[title='maria']::before {
+    background: url(folder_type_mariadb.svg);
+}
+
+.item.folder[title='.mvn']::before {
+    background: url(folder_type_maven.svg);
+}
+
+.item.folder[title='memcached']::before,
+.item.folder[title='.memcached']::before {
+    background: url(folder_type_memcached.svg);
+}
+
+.item.folder[title='.meteor']::before {
+    background: url(folder_type_meteor.svg);
+}
+
+.item.folder[title='middleware']::before,
+.item.folder[title='middlewares']::before {
+    background: url(folder_type_middleware.svg);
+}
+
+.item.folder[title='minikube']::before,
+.item.folder[title='minik8s']::before,
+.item.folder[title='minikuber']::before {
+    background: url(folder_type_minikube.svg);
+}
+
+.item.folder[title='mjml']::before,
+.item.folder[title='.mjml']::before {
+    background: url(folder_type_mjml.svg);
+}
+
+.item.folder[title='mocks']::before,
+.item.folder[title='.mocks']::before,
+.item.folder[title='__mocks__']::before {
+    background: url(folder_type_mock.svg);
+}
+
+.item.folder[title='model']::before,
+.item.folder[title='.model']::before,
+.item.folder[title='models']::before,
+.item.folder[title='.models']::before,
+.item.folder[title='entities']::before,
+.item.folder[title='.entities']::before {
+    background: url(folder_type_model.svg);
+}
+
+.item.folder[title='modules']::before {
+    background: url(folder_type_module.svg);
+}
+
+.item.folder[title='mongodb']::before,
+.item.folder[title='mongo']::before {
+    background: url(folder_type_mongodb.svg);
+}
+
+.item.folder[title='mysqldb']::before,
+.item.folder[title='mysql']::before {
+    background: url(folder_type_mysql.svg);
+}
+
+.item.folder[title='.next']::before {
+    background: url(folder_type_next.svg);
+}
+
+.item.folder[title='nginx']::before,
+.item.folder[title='conf.d']::before {
+    background: url(folder_type_nginx.svg);
+}
+
+.item.folder[title='.niv']::before,
+.item.folder[title='.nix']::before,
+.item.folder[title='nix']::before,
+.item.folder[title='niv']::before {
+    background: url(folder_type_nix.svg);
+}
+
+.item.folder[title='node_modules']::before {
+    background: url(folder_type_node.svg);
+}
+
+.item.folder[title='notification']::before,
+.item.folder[title='notifications']::before,
+.item.folder[title='event']::before,
+.item.folder[title='events']::before {
+    background: url(folder_type_notification.svg);
+}
+
+.item.folder[title='.nuget']::before {
+    background: url(folder_type_nuget.svg);
+}
+
+.item.folder[title='.nuxt']::before {
+    background: url(folder_type_nuxt.svg);
+}
+
+.item.folder[title='package']::before,
+.item.folder[title='packages']::before,
+.item.folder[title='.package']::before,
+.item.folder[title='.packages']::before,
+.item.folder[title='pkg']::before {
+    background: url(folder_type_package.svg);
+}
+
+.item.folder[title='.paket']::before {
+    background: url(folder_type_paket.svg);
+}
+
+.item.folder[title='php']::before {
+    background: url(folder_type_php.svg);
+}
+
+.item.folder[title='.pio']::before,
+.item.folder[title='.pioenvs']::before {
+    background: url(folder_type_platformio.svg);
+}
+
+.item.folder[title='plugin']::before,
+.item.folder[title='.plugin']::before,
+.item.folder[title='plugins']::before,
+.item.folder[title='.plugins']::before,
+.item.folder[title='extension']::before,
+.item.folder[title='.extension']::before,
+.item.folder[title='extensions']::before,
+.item.folder[title='.extensions']::before {
+    background: url(folder_type_plugin.svg);
+}
+
+.item.folder[title='private']::before,
+.item.folder[title='.private']::before {
+    background: url(folder_type_private.svg);
+}
+
+.item.folder[title='public']::before,
+.item.folder[title='.public']::before {
+    background: url(folder_type_public.svg);
+}
+
+.item.folder[title='.venv']::before,
+.item.folder[title='.virtualenv']::before {
+    background: url(folder_type_python.svg);
+}
+
+.item.folder[title='ravendb']::before {
+    background: url(folder_type_ravendb.svg);
+}
+
+.item.folder[title='redis']::before {
+    background: url(folder_type_redis.svg);
+}
+
+.item.folder[title='redux']::before {
+    background: url(folder_type_redux.svg);
+}
+
+.item.folder[title='route']::before,
+.item.folder[title='routes']::before,
+.item.folder[title='_route']::before,
+.item.folder[title='_routes']::before,
+.item.folder[title='routers']::before {
+    background: url(folder_type_route.svg);
+}
+
+.item.folder[title='sass']::before,
+.item.folder[title='scss']::before,
+.item.folder[title='_sass']::before,
+.item.folder[title='_scss']::before {
+    background: url(folder_type_sass.svg);
+}
+
+.item.folder[title='script']::before,
+.item.folder[title='scripts']::before {
+    background: url(folder_type_script.svg);
+}
+
+.item.folder[title='server']::before {
+    background: url(folder_type_server.svg);
+}
+
+.item.folder[title='service']::before,
+.item.folder[title='services']::before {
+    background: url(folder_type_services.svg);
+}
+
+.item.folder[title='src']::before,
+.item.folder[title='source']::before,
+.item.folder[title='sources']::before {
+    background: url(folder_type_src.svg);
+}
+
+.item.folder[title='sso']::before {
+    background: url(folder_type_sso.svg);
+}
+
+.item.folder[title='story']::before,
+.item.folder[title='stories']::before,
+.item.folder[title='__stories__']::before,
+.item.folder[title='.storybook']::before {
+    background: url(folder_type_story.svg);
+}
+
+.item.folder[title='style']::before,
+.item.folder[title='styles']::before {
+    background: url(folder_type_style.svg);
+}
+
+.item.folder[title='temp']::before,
+.item.folder[title='.temp']::before,
+.item.folder[title='tmp']::before,
+.item.folder[title='.tmp']::before {
+    background: url(folder_type_temp.svg);
+}
+
+.item.folder[title='template']::before,
+.item.folder[title='.template']::before,
+.item.folder[title='templates']::before,
+.item.folder[title='.templates']::before {
+    background: url(folder_type_template.svg);
+}
+
+.item.folder[title='tests']::before,
+.item.folder[title='.tests']::before,
+.item.folder[title='test']::before,
+.item.folder[title='.test']::before,
+.item.folder[title='__tests__']::before,
+.item.folder[title='__test__']::before,
+.item.folder[title='spec']::before,
+.item.folder[title='.spec']::before,
+.item.folder[title='specs']::before,
+.item.folder[title='.specs']::before,
+.item.folder[title='integration']::before {
+    background: url(folder_type_test.svg);
+}
+
+.item.folder[title='theme']::before,
+.item.folder[title='themes']::before {
+    background: url(folder_type_theme.svg);
+}
+
+.item.folder[title='tool']::before,
+.item.folder[title='tools']::before,
+.item.folder[title='.tools']::before,
+.item.folder[title='util']::before,
+.item.folder[title='utils']::before {
+    background: url(folder_type_tools.svg);
+}
+
+.item.folder[title='.travis']::before {
+    background: url(folder_type_travis.svg);
+}
+
+.item.folder[title='.trunk']::before {
+    background: url(folder_type_trunk.svg);
+}
+
+.item.folder[title='typescript']::before,
+.item.folder[title='ts']::before {
+    background: url(folder_type_typescript.svg);
+}
+
+.item.folder[title='typings']::before,
+.item.folder[title='@types']::before {
+    background: url(folder_type_typings.svg);
+}
+
+.item.folder[title='vagrant']::before,
+.item.folder[title='.vagrant']::before {
+    background: url(folder_type_vagrant.svg);
+}
+
+.item.folder[title='video']::before,
+.item.folder[title='.video']::before,
+.item.folder[title='videos']::before,
+.item.folder[title='.videos']::before {
+    background: url(folder_type_video.svg);
+}
+
+.item.folder[title='html']::before,
+.item.folder[title='view']::before,
+.item.folder[title='views']::before,
+.item.folder[title='layout']::before,
+.item.folder[title='layouts']::before,
+.item.folder[title='page']::before,
+.item.folder[title='pages']::before,
+.item.folder[title='_view']::before,
+.item.folder[title='_views']::before,
+.item.folder[title='_layout']::before,
+.item.folder[title='_layouts']::before,
+.item.folder[title='_page']::before,
+.item.folder[title='_pages']::before {
+    background: url(folder_type_view.svg);
+}
+
+.item.folder[title='.vs']::before {
+    background: url(folder_type_vs.svg);
+}
+
+.item.folder[title='.vscode']::before,
+.item.folder[title='vscode']::before {
+    background: url(folder_type_vscode.svg);
+}
+
+.item.folder[title='.vscode-test']::before {
+    background: url(folder_type_vscode_test.svg);
+}
+
+.item.folder[title='webpack']::before {
+    background: url(folder_type_webpack.svg);
+}
+
+.item.folder[title='windows']::before,
+.item.folder[title='win32']::before {
+    background: url(folder_type_windows.svg);
+}
+
+.item.folder[title='www']::before,
+.item.folder[title='wwwroot']::before {
+    background: url(folder_type_www.svg);
+}
+
+.item.folder[title='.yarn']::before {
+    background: url(folder_type_yarn.svg);
+}

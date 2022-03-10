@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-size: 12px;
+}
+
+#header {
+    top: 0;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    background: #eee;
+    position: absolute;
+}
+
+.path > a {
+    color: #000;
+    margin-left: 1em;
+    position: relative;
+    text-decoration: none;
+}
+
+.path > a + a::before {
+    content: '/';
+    margin-left: -0.75em;
+    position: absolute;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    padding: 2em 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#main > img,
+#main > iframe,
+#main > #aplayer,
+#main > #dplayer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+#main .item {
+    width: 100%;
+    height: 2em;
+    color: #000;
+    display: block;
+    cursor: pointer;
+    line-height: 2em;
+}
+
+#main .item:hover {
+    background-color: #cce8ff;
+}
+
+#main .item::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#main .item::before {
+    content: '';
+    float: left;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.25em 0.5em;
+}
+
+#main .item > * {
+    float: left;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    background: #eee;
+    position: absolute;
+}
